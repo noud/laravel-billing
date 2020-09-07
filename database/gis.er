@@ -1,0 +1,27 @@
+title {label: "GIS"}
+
+[place]
+*id {label: "bigint"}
++address_id
++geo_id
+
+[postal_address]
+*id {label: "bigint"}
++address_country
+address_locality    # city
+address_region      # state
+postal_code
+street_address
+
+[country]
+*id {label: "string"}
+name
+
+[geo_coordinate]
+*id {label: "bigint"}
+latitude {label: "float"}
+longitude {label: "float"}
+
+place *--1 postal_address {label: "address_id"}
+place *--1 geo_coordinate {label: "geo_id"}
+postal_address *--1 country {label: "address_country"}

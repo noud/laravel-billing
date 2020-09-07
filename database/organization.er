@@ -1,0 +1,32 @@
+title {label: "Organization"}
+
+#include gis
+
+[organization]
+*id {label: "bigint"}
++address_id
+email
+legal_name
++location_id
+telephone
++thing_id
+# extra
+contact
+mobile
+vat
+# custom_fields nl
+kvk
+bank_number
+bank_name
+swift
+# custom_fields in
+pin
+tin
+
+[thing]
+*id {label: "bigint"}
+url
+
+organization *--1 postal_address {label: "address_id"}
+organization *--1 place {label: "location_id"}
+organization *--1 thing

@@ -1,0 +1,69 @@
+title {label: "billing"}
+
+#include organization
+
+[products]
+*id {label: "bigint"}
+name
+price {label: "float", length: "8,2"}
++tax {label: "integer"}
+tax_amount {label: "float"}
+quantity {label: "float", length: "8,2"}
++category
++unit
+
+[area]
+*id {label: "bigint"}
+name
+
+[invoice]
+*id {label: "bigint"}
+
+[invoice_detail]
+*id {label: "bigint"}
++invoice_id {label: "bigint, null"}
++area
+date {label: "date"}
+amount {label: "float"}
+tax_amount {label: "float"}
++customer {label: "bigint"}
+code
+order_nr
+remark {label: "text"}
+pay_before
++tenant {label: "bigint"}
+
+[invoice_item_detail]
+*id {label: "bigint"}
++invoice_id {label: "bigint, null"}
++description
+tax {label: "integer"}
+tax_amount {label: "float"}
+qty {label: "float"}
++unit
+price {label: "float", length: "8,2"}
+item_total {label: "float"}
+
+[category]
+*id {label: "bigint"}
+name
+
+[unit]
+*id {label: "bigint"}
+name
+
+[tax]
+*id {label: "bigint"}
+name
+percentage {label: "float"}
+
+customers *--1 area
+invoice_detail *--1 area
+invoice_detail *--1 invoice
+invoice_detail *--1 organization {label: "Customer"}
+invoice_detail *--1 organization {label: "tenant"}
+invoice_item_detail *--1 invoice_detail
+invoice_item_detail *--1 products {label: "description"}
+products *--1 category
+products *--1 unit
+products *--1 tax

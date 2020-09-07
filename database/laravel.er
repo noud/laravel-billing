@@ -1,0 +1,9 @@
+title {label: "Laravel"}
+
+[failed_job]
+*id {label: "bigint"}
+connection {label: "text"}
+queue {label: "text"}
+payload {label: "longtext"}
+exception {label: "longtext"}
+failed_at {label: "timestamp"}

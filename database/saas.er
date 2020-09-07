@@ -1,0 +1,20 @@
+title {label: "SaaS"}
+
+#include organization
+
+# Laravel
+
+[user]
+*id {label: "bigint"}
++organization_id {label: "bigint"}
+name
+email
+email_verified_at {label: "timestamp"}
+remember_token {label: "boolean"}
+
+[password_resets]
+*id {label: "bigint"}
+email
+token
+
+user *--1 organization
