@@ -1,0 +1,5 @@
+# generated
+src/app/Models/*
+src/database/migrations/*
+
+vendor
