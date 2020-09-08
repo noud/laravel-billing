@@ -2,14 +2,14 @@ title {label: "Organization"}
 
 #include gis
 
-[organization]
+[organization] {bgcolor: "green"}
 *id {label: "bigint"}
-+address_id
++address_id {label: "bigint, null"}
 email
 legal_name
-+location_id
++location_id {label: "bigint, null"}
 telephone
-+thing_id
++thing_id {label: "bigint, null"}
 # extra
 contact
 mobile
@@ -23,7 +23,7 @@ swift
 pin
 tin
 
-[thing]
+[thing] {bgcolor: "green"}
 *id {label: "bigint"}
 url
 

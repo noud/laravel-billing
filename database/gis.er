@@ -1,11 +1,11 @@
 title {label: "GIS"}
 
-[place]
+[place] {bgcolor: "green"}
 *id {label: "bigint"}
 +address_id
 +geo_id
 
-[postal_address]
+[postal_address] {bgcolor: "green"}
 *id {label: "bigint"}
 +address_country
 address_locality    # city
@@ -13,11 +13,11 @@ address_region      # state
 postal_code
 street_address
 
-[country]
+[country] {bgcolor: "green"}
 *id {label: "string"}
 name
 
-[geo_coordinate]
+[geo_coordinate] {bgcolor: "green"}
 *id {label: "bigint"}
 latitude {label: "float"}
 longitude {label: "float"}

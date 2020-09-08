@@ -9,20 +9,16 @@ price {label: "float", length: "8,2"}
 +tax {label: "integer"}
 tax_amount {label: "float"}
 quantity {label: "float", length: "8,2"}
-+category
++category {label: "bigint, null"}
 +unit
 
-[area]
-*id {label: "bigint"}
-name
-
 [invoice]
-*id {label: "bigint"}
+*id {label: "uuid"}
 
 [invoice_detail]
 *id {label: "bigint"}
 +invoice_id {label: "bigint, null"}
-+area
++area {label: "bigint, null"}
 date {label: "date"}
 amount {label: "float"}
 tax_amount {label: "float"}
@@ -57,13 +53,13 @@ name
 name
 percentage {label: "float"}
 
-customers *--1 area
-invoice_detail *--1 area
+invoice_detail *--1 place {label: "area"}
 invoice_detail *--1 invoice
-invoice_detail *--1 organization {label: "Customer"}
+invoice_detail *--1 organization {label: "customer"}
 invoice_detail *--1 organization {label: "tenant"}
 invoice_item_detail *--1 invoice_detail
 invoice_item_detail *--1 products {label: "description"}
+invoice_item_detail *--1 unit
 products *--1 category
 products *--1 unit
 products *--1 tax

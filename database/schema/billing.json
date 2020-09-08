@@ -46,147 +46,147 @@
             "tableId": ""
         },
         "positions": {
-            "wg5fe8": {
-                "x": 22,
-                "y": 394
+            "eli6mi": {
+                "x": 15,
+                "y": 386
             },
-            "7zo9gn": {
-                "x": 502,
-                "y": 604
+            "h4n2m": {
+                "x": 469,
+                "y": 682
             },
-            "5hcbm": {
-                "x": 758,
-                "y": 482
+            "19a57i": {
+                "x": 717,
+                "y": 467
             },
-            "kqilbd": {
-                "x": 1018,
-                "y": 484
+            "jpjv8": {
+                "x": 958,
+                "y": 499
             },
-            "xl5ox": {
-                "x": 758,
-                "y": 759
+            "3vo3q": {
+                "x": 718,
+                "y": 748
             },
-            "gs3l5": {
-                "x": 466,
-                "y": 783
+            "s6ml7s": {
+                "x": 237,
+                "y": 848
             },
-            "yz4bwh": {
-                "x": 990,
-                "y": 8
-            },
-            "k3aew8": {
-                "x": 512,
-                "y": 4
-            },
-            "adeyic": {
-                "x": 271,
+            "huumtb": {
+                "x": 945,
                 "y": 0
             },
-            "8e0xa4": {
-                "x": 737,
-                "y": 8
+            "pmun5d": {
+                "x": 483,
+                "y": 0
             },
-            "bgenkk": {
-                "x": 1222,
-                "y": 181
+            "hhsrml": {
+                "x": 251,
+                "y": 1
             },
-            "eh4xr": {
-                "x": 1224,
-                "y": 323
+            "c2fpj": {
+                "x": 699,
+                "y": 88
             },
-            "m796nl": {
-                "x": 1221,
-                "y": 7
+            "7lmlgp": {
+                "x": 1163,
+                "y": 169
+            },
+            "3cm6mc": {
+                "x": 1163,
+                "y": 306
+            },
+            "ztoa4c": {
+                "x": 1164,
+                "y": 0
             }
         }
     },
     "tables": [
         {
-            "id": "wg5fe8",
+            "id": "eli6mi",
             "name": "organization",
             "color": "table-header-green",
             "softDelete": false,
             "timeStamp": true
         },
         {
-            "id": "7zo9gn",
+            "id": "h4n2m",
             "name": "place",
             "color": "table-header-green",
             "softDelete": false,
             "timeStamp": true
         },
         {
-            "id": "5hcbm",
+            "id": "19a57i",
             "name": "postal_address",
             "color": "table-header-green",
             "softDelete": false,
             "timeStamp": true
         },
         {
-            "id": "kqilbd",
+            "id": "jpjv8",
             "name": "country",
             "color": "table-header-green",
             "softDelete": false,
             "timeStamp": true
         },
         {
-            "id": "xl5ox",
+            "id": "3vo3q",
             "name": "geo_coordinate",
             "color": "table-header-green",
             "softDelete": false,
             "timeStamp": true
         },
         {
-            "id": "gs3l5",
+            "id": "s6ml7s",
             "name": "thing",
             "color": "table-header-green",
             "softDelete": false,
             "timeStamp": true
         },
         {
-            "id": "yz4bwh",
+            "id": "huumtb",
             "name": "products",
             "color": "table-header-blue",
             "softDelete": false,
             "timeStamp": true
         },
         {
-            "id": "k3aew8",
+            "id": "pmun5d",
             "name": "invoice",
             "color": "table-header-blue",
             "softDelete": false,
             "timeStamp": true
         },
         {
-            "id": "adeyic",
+            "id": "hhsrml",
             "name": "invoice_detail",
             "color": "table-header-blue",
             "softDelete": false,
             "timeStamp": true
         },
         {
-            "id": "8e0xa4",
+            "id": "c2fpj",
             "name": "invoice_item_detail",
             "color": "table-header-blue",
             "softDelete": false,
             "timeStamp": true
         },
         {
-            "id": "bgenkk",
+            "id": "7lmlgp",
             "name": "category",
             "color": "table-header-blue",
             "softDelete": false,
             "timeStamp": true
         },
         {
-            "id": "eh4xr",
+            "id": "3cm6mc",
             "name": "unit",
             "color": "table-header-blue",
             "softDelete": false,
             "timeStamp": true
         },
         {
-            "id": "m796nl",
+            "id": "ztoa4c",
             "name": "tax",
             "color": "table-header-blue",
             "softDelete": false,
@@ -194,16 +194,16 @@
         }
     ],
     "columns": {
-        "wg5fe8": [
+        "eli6mi": [
             {
-                "id": "thqj2u",
+                "id": "7mnqyu",
                 "name": "id",
-                "type": "integer",
+                "type": "biginteger",
                 "length": "",
                 "defValue": "",
                 "comment": "",
                 "autoInc": true,
-                "nullable": true,
+                "nullable": false,
                 "unique": true,
                 "index": false,
                 "unsigned": false,
@@ -219,37 +219,37 @@
                 }
             },
             {
-                "id": "4v78vg",
+                "id": "eui9ri",
                 "name": "address_id",
-                "type": "integer",
+                "type": "biginteger",
                 "length": "",
                 "defValue": "",
                 "comment": "",
                 "autoInc": false,
-                "nullable": true,
+                "nullable": false,
                 "unique": false,
                 "index": false,
                 "unsigned": true,
                 "foreignKey": {
                     "references": {
-                        "id": "lo8rm",
+                        "id": "tz8d",
                         "name": "id"
                     },
                     "on": {
-                        "id": "5hcbm",
+                        "id": "19a57i",
                         "name": "postal_address"
                     }
                 }
             },
             {
-                "id": "ntnkj",
+                "id": "04nwx9",
                 "name": "email",
                 "type": "string",
                 "length": "",
                 "defValue": "",
                 "comment": "",
                 "autoInc": false,
-                "nullable": true,
+                "nullable": false,
                 "unique": false,
                 "index": false,
                 "unsigned": false,
@@ -265,14 +265,14 @@
                 }
             },
             {
-                "id": "vbct8",
+                "id": "eftyr",
                 "name": "legal_name",
                 "type": "string",
                 "length": "",
                 "defValue": "",
                 "comment": "",
                 "autoInc": false,
-                "nullable": true,
+                "nullable": false,
                 "unique": false,
                 "index": false,
                 "unsigned": false,
@@ -288,37 +288,37 @@
                 }
             },
             {
-                "id": "x0r6s6",
+                "id": "xavj7l",
                 "name": "location_id",
-                "type": "integer",
+                "type": "biginteger",
                 "length": "",
                 "defValue": "",
                 "comment": "",
                 "autoInc": false,
-                "nullable": true,
+                "nullable": false,
                 "unique": false,
                 "index": false,
                 "unsigned": true,
                 "foreignKey": {
                     "references": {
-                        "id": "to8du",
+                        "id": "qxmq0m",
                         "name": "id"
                     },
                     "on": {
-                        "id": "7zo9gn",
+                        "id": "h4n2m",
                         "name": "place"
                     }
                 }
             },
             {
-                "id": "vd3wby",
+                "id": "x4bh4c",
                 "name": "telephone",
                 "type": "string",
                 "length": "",
                 "defValue": "",
                 "comment": "",
                 "autoInc": false,
-                "nullable": true,
+                "nullable": false,
                 "unique": false,
                 "index": false,
                 "unsigned": false,
@@ -334,60 +334,37 @@
                 }
             },
             {
-                "id": "ec6y06",
+                "id": "qyu9d",
                 "name": "thing_id",
-                "type": "integer",
+                "type": "biginteger",
                 "length": "",
                 "defValue": "",
                 "comment": "",
                 "autoInc": false,
-                "nullable": true,
+                "nullable": false,
                 "unique": false,
                 "index": false,
                 "unsigned": true,
                 "foreignKey": {
                     "references": {
-                        "id": "vrjbn4",
+                        "id": "ku4elp",
                         "name": "id"
                     },
                     "on": {
-                        "id": "gs3l5",
+                        "id": "s6ml7s",
                         "name": "thing"
                     }
                 }
             },
             {
-                "id": "ahivgb",
-                "name": "# extra",
-                "type": "string",
-                "length": "",
-                "defValue": "",
-                "comment": "",
-                "autoInc": false,
-                "nullable": true,
-                "unique": false,
-                "index": false,
-                "unsigned": false,
-                "foreignKey": {
-                    "references": {
-                        "id": "",
-                        "name": ""
-                    },
-                    "on": {
-                        "id": "",
-                        "name": ""
-                    }
-                }
-            },
-            {
-                "id": "jmqfz5",
+                "id": "hbpzl3",
                 "name": "contact",
                 "type": "string",
                 "length": "",
                 "defValue": "",
                 "comment": "",
                 "autoInc": false,
-                "nullable": true,
+                "nullable": false,
                 "unique": false,
                 "index": false,
                 "unsigned": false,
@@ -403,14 +380,14 @@
                 }
             },
             {
-                "id": "9ds07",
+                "id": "wdwjlm",
                 "name": "mobile",
                 "type": "string",
                 "length": "",
                 "defValue": "",
                 "comment": "",
                 "autoInc": false,
-                "nullable": true,
+                "nullable": false,
                 "unique": false,
                 "index": false,
                 "unsigned": false,
@@ -426,14 +403,14 @@
                 }
             },
             {
-                "id": "6ng0r",
+                "id": "ezkxz9",
                 "name": "vat",
                 "type": "string",
                 "length": "",
                 "defValue": "",
                 "comment": "",
                 "autoInc": false,
-                "nullable": true,
+                "nullable": false,
                 "unique": false,
                 "index": false,
                 "unsigned": false,
@@ -449,37 +426,14 @@
                 }
             },
             {
-                "id": "lho5zo",
-                "name": "# custom_fields nl",
-                "type": "string",
-                "length": "",
-                "defValue": "",
-                "comment": "",
-                "autoInc": false,
-                "nullable": true,
-                "unique": false,
-                "index": false,
-                "unsigned": false,
-                "foreignKey": {
-                    "references": {
-                        "id": "",
-                        "name": ""
-                    },
-                    "on": {
-                        "id": "",
-                        "name": ""
-                    }
-                }
-            },
-            {
-                "id": "w1f7e",
+                "id": "ofcb44",
                 "name": "kvk",
                 "type": "string",
                 "length": "",
                 "defValue": "",
                 "comment": "",
                 "autoInc": false,
-                "nullable": true,
+                "nullable": false,
                 "unique": false,
                 "index": false,
                 "unsigned": false,
@@ -495,14 +449,14 @@
                 }
             },
             {
-                "id": "rr6aw",
+                "id": "xyl53c",
                 "name": "bank_number",
                 "type": "string",
                 "length": "",
                 "defValue": "",
                 "comment": "",
                 "autoInc": false,
-                "nullable": true,
+                "nullable": false,
                 "unique": false,
                 "index": false,
                 "unsigned": false,
@@ -518,14 +472,14 @@
                 }
             },
             {
-                "id": "4a3927",
+                "id": "117hlr",
                 "name": "bank_name",
                 "type": "string",
                 "length": "",
                 "defValue": "",
                 "comment": "",
                 "autoInc": false,
-                "nullable": true,
+                "nullable": false,
                 "unique": false,
                 "index": false,
                 "unsigned": false,
@@ -541,14 +495,14 @@
                 }
             },
             {
-                "id": "r3svft",
+                "id": "51g57v",
                 "name": "swift",
                 "type": "string",
                 "length": "",
                 "defValue": "",
                 "comment": "",
                 "autoInc": false,
-                "nullable": true,
+                "nullable": false,
                 "unique": false,
                 "index": false,
                 "unsigned": false,
@@ -564,37 +518,14 @@
                 }
             },
             {
-                "id": "fbiaof",
-                "name": "# custom_fields in",
-                "type": "string",
-                "length": "",
-                "defValue": "",
-                "comment": "",
-                "autoInc": false,
-                "nullable": true,
-                "unique": false,
-                "index": false,
-                "unsigned": false,
-                "foreignKey": {
-                    "references": {
-                        "id": "",
-                        "name": ""
-                    },
-                    "on": {
-                        "id": "",
-                        "name": ""
-                    }
-                }
-            },
-            {
-                "id": "8zmdr7",
+                "id": "thg2m8",
                 "name": "pin",
                 "type": "string",
                 "length": "",
                 "defValue": "",
                 "comment": "",
                 "autoInc": false,
-                "nullable": true,
+                "nullable": false,
                 "unique": false,
                 "index": false,
                 "unsigned": false,
@@ -610,14 +541,14 @@
                 }
             },
             {
-                "id": "vgelyt",
+                "id": "08w4jj",
                 "name": "tin",
                 "type": "string",
                 "length": "",
                 "defValue": "",
                 "comment": "",
                 "autoInc": false,
-                "nullable": true,
+                "nullable": false,
                 "unique": false,
                 "index": false,
                 "unsigned": false,
@@ -633,16 +564,16 @@
                 }
             }
         ],
-        "7zo9gn": [
+        "h4n2m": [
             {
-                "id": "to8du",
+                "id": "qxmq0m",
                 "name": "id",
-                "type": "integer",
+                "type": "biginteger",
                 "length": "",
                 "defValue": "",
                 "comment": "",
                 "autoInc": true,
-                "nullable": true,
+                "nullable": false,
                 "unique": true,
                 "index": false,
                 "unsigned": false,
@@ -658,62 +589,62 @@
                 }
             },
             {
-                "id": "5lnskt",
+                "id": "v8rtgd",
                 "name": "address_id",
-                "type": "integer",
+                "type": "biginteger",
                 "length": "",
                 "defValue": "",
                 "comment": "",
                 "autoInc": false,
-                "nullable": true,
+                "nullable": false,
                 "unique": false,
                 "index": false,
                 "unsigned": true,
                 "foreignKey": {
                     "references": {
-                        "id": "lo8rm",
+                        "id": "tz8d",
                         "name": "id"
                     },
                     "on": {
-                        "id": "5hcbm",
+                        "id": "19a57i",
                         "name": "postal_address"
                     }
                 }
             },
             {
-                "id": "l3a8lt",
+                "id": "qpj3w19",
                 "name": "geo_id",
-                "type": "integer",
+                "type": "biginteger",
                 "length": "",
                 "defValue": "",
                 "comment": "",
                 "autoInc": false,
-                "nullable": true,
+                "nullable": false,
                 "unique": false,
                 "index": false,
                 "unsigned": true,
                 "foreignKey": {
                     "references": {
-                        "id": "6ldtf",
+                        "id": "cnw2df",
                         "name": "id"
                     },
                     "on": {
-                        "id": "xl5ox",
+                        "id": "3vo3q",
                         "name": "geo_coordinate"
                     }
                 }
             }
         ],
-        "5hcbm": [
+        "19a57i": [
             {
-                "id": "lo8rm",
+                "id": "tz8d",
                 "name": "id",
-                "type": "integer",
+                "type": "biginteger",
                 "length": "",
                 "defValue": "",
                 "comment": "",
                 "autoInc": true,
-                "nullable": true,
+                "nullable": false,
                 "unique": true,
                 "index": false,
                 "unsigned": false,
@@ -729,37 +660,37 @@
                 }
             },
             {
-                "id": "glrj5",
+                "id": "k38kxl",
                 "name": "address_country",
                 "type": "string",
                 "length": "",
                 "defValue": "",
                 "comment": "",
                 "autoInc": false,
-                "nullable": true,
+                "nullable": false,
                 "unique": false,
                 "index": false,
                 "unsigned": false,
                 "foreignKey": {
                     "references": {
-                        "id": "09m328",
+                        "id": "3jtjtr",
                         "name": "id"
                     },
                     "on": {
-                        "id": "kqilbd",
+                        "id": "jpjv8",
                         "name": "country"
                     }
                 }
             },
             {
-                "id": "yxs1mv",
-                "name": "address_locality    # city",
+                "id": "te9hsk",
+                "name": "address_locality",
                 "type": "string",
                 "length": "",
                 "defValue": "",
                 "comment": "",
                 "autoInc": false,
-                "nullable": true,
+                "nullable": false,
                 "unique": false,
                 "index": false,
                 "unsigned": false,
@@ -775,14 +706,14 @@
                 }
             },
             {
-                "id": "8e66j",
-                "name": "address_region      # state",
+                "id": "m51qha",
+                "name": "address_region",
                 "type": "string",
                 "length": "",
                 "defValue": "",
                 "comment": "",
                 "autoInc": false,
-                "nullable": true,
+                "nullable": false,
                 "unique": false,
                 "index": false,
                 "unsigned": false,
@@ -798,14 +729,14 @@
                 }
             },
             {
-                "id": "rahz6",
+                "id": "2gobd",
                 "name": "postal_code",
                 "type": "string",
                 "length": "",
                 "defValue": "",
                 "comment": "",
                 "autoInc": false,
-                "nullable": true,
+                "nullable": false,
                 "unique": false,
                 "index": false,
                 "unsigned": false,
@@ -821,14 +752,14 @@
                 }
             },
             {
-                "id": "rhk38",
+                "id": "z8myob",
                 "name": "street_address",
                 "type": "string",
                 "length": "",
                 "defValue": "",
                 "comment": "",
                 "autoInc": false,
-                "nullable": true,
+                "nullable": false,
                 "unique": false,
                 "index": false,
                 "unsigned": false,
@@ -844,16 +775,16 @@
                 }
             }
         ],
-        "kqilbd": [
+        "jpjv8": [
             {
-                "id": "09m328",
+                "id": "3jtjtr",
                 "name": "id",
                 "type": "string",
                 "length": "",
                 "defValue": "",
                 "comment": "",
                 "autoInc": true,
-                "nullable": true,
+                "nullable": false,
                 "unique": true,
                 "index": false,
                 "unsigned": false,
@@ -869,14 +800,14 @@
                 }
             },
             {
-                "id": "t7ryxj",
+                "id": "77ux3",
                 "name": "name",
                 "type": "string",
                 "length": "",
                 "defValue": "",
                 "comment": "",
                 "autoInc": false,
-                "nullable": true,
+                "nullable": false,
                 "unique": false,
                 "index": false,
                 "unsigned": false,
@@ -892,16 +823,16 @@
                 }
             }
         ],
-        "xl5ox": [
+        "3vo3q": [
             {
-                "id": "6ldtf",
+                "id": "cnw2df",
                 "name": "id",
-                "type": "integer",
+                "type": "biginteger",
                 "length": "",
                 "defValue": "",
                 "comment": "",
                 "autoInc": true,
-                "nullable": true,
+                "nullable": false,
                 "unique": true,
                 "index": false,
                 "unsigned": false,
@@ -917,14 +848,14 @@
                 }
             },
             {
-                "id": "7g1aag",
+                "id": "0gqkru",
                 "name": "latitude",
                 "type": "string",
                 "length": "",
                 "defValue": "",
                 "comment": "",
                 "autoInc": false,
-                "nullable": true,
+                "nullable": false,
                 "unique": false,
                 "index": false,
                 "unsigned": false,
@@ -940,14 +871,14 @@
                 }
             },
             {
-                "id": "rss1qx",
+                "id": "nopiz",
                 "name": "longitude",
                 "type": "string",
                 "length": "",
                 "defValue": "",
                 "comment": "",
                 "autoInc": false,
-                "nullable": true,
+                "nullable": false,
                 "unique": false,
                 "index": false,
                 "unsigned": false,
@@ -963,16 +894,16 @@
                 }
             }
         ],
-        "gs3l5": [
+        "s6ml7s": [
             {
-                "id": "vrjbn4",
+                "id": "ku4elp",
                 "name": "id",
-                "type": "integer",
+                "type": "biginteger",
                 "length": "",
                 "defValue": "",
                 "comment": "",
                 "autoInc": true,
-                "nullable": true,
+                "nullable": false,
                 "unique": true,
                 "index": false,
                 "unsigned": false,
@@ -988,14 +919,14 @@
                 }
             },
             {
-                "id": "e0n82",
+                "id": "v85yiq",
                 "name": "url",
                 "type": "string",
                 "length": "",
                 "defValue": "",
                 "comment": "",
                 "autoInc": false,
-                "nullable": true,
+                "nullable": false,
                 "unique": false,
                 "index": false,
                 "unsigned": false,
@@ -1011,16 +942,16 @@
                 }
             }
         ],
-        "yz4bwh": [
+        "huumtb": [
             {
-                "id": "i9ukq",
+                "id": "292pjg",
                 "name": "id",
-                "type": "integer",
+                "type": "biginteger",
                 "length": "",
                 "defValue": "",
                 "comment": "",
                 "autoInc": true,
-                "nullable": true,
+                "nullable": false,
                 "unique": true,
                 "index": false,
                 "unsigned": false,
@@ -1036,14 +967,14 @@
                 }
             },
             {
-                "id": "u11bxg",
+                "id": "jy5bo",
                 "name": "name",
                 "type": "string",
                 "length": "",
                 "defValue": "",
                 "comment": "",
                 "autoInc": false,
-                "nullable": true,
+                "nullable": false,
                 "unique": false,
                 "index": false,
                 "unsigned": false,
@@ -1059,14 +990,14 @@
                 }
             },
             {
-                "id": "hv7onk",
+                "id": "dj953",
                 "name": "price",
                 "type": "string",
                 "length": "",
                 "defValue": "",
                 "comment": "",
                 "autoInc": false,
-                "nullable": true,
+                "nullable": false,
                 "unique": false,
                 "index": false,
                 "unsigned": false,
@@ -1082,37 +1013,37 @@
                 }
             },
             {
-                "id": "33fg7",
+                "id": "gpndhl",
                 "name": "tax",
-                "type": "integer",
+                "type": "biginteger",
                 "length": "",
                 "defValue": "",
                 "comment": "",
                 "autoInc": false,
-                "nullable": true,
+                "nullable": false,
                 "unique": false,
                 "index": false,
                 "unsigned": true,
                 "foreignKey": {
                     "references": {
-                        "id": "y8smik",
+                        "id": "xg3q9j",
                         "name": "id"
                     },
                     "on": {
-                        "id": "m796nl",
+                        "id": "ztoa4c",
                         "name": "tax"
                     }
                 }
             },
             {
-                "id": "5dkxwm",
+                "id": "1mpwqc",
                 "name": "tax_amount",
                 "type": "string",
                 "length": "",
                 "defValue": "",
                 "comment": "",
                 "autoInc": false,
-                "nullable": true,
+                "nullable": false,
                 "unique": false,
                 "index": false,
                 "unsigned": false,
@@ -1128,14 +1059,14 @@
                 }
             },
             {
-                "id": "bnb2i",
+                "id": "egqbo8",
                 "name": "quantity",
                 "type": "string",
                 "length": "",
                 "defValue": "",
                 "comment": "",
                 "autoInc": false,
-                "nullable": true,
+                "nullable": false,
                 "unique": false,
                 "index": false,
                 "unsigned": false,
@@ -1151,62 +1082,62 @@
                 }
             },
             {
-                "id": "20wyvj",
+                "id": "fzk2wg",
                 "name": "category",
-                "type": "integer",
+                "type": "biginteger",
                 "length": "",
                 "defValue": "",
                 "comment": "",
                 "autoInc": false,
-                "nullable": true,
+                "nullable": false,
                 "unique": false,
                 "index": false,
                 "unsigned": true,
                 "foreignKey": {
                     "references": {
-                        "id": "ivsceu",
+                        "id": "abxgvu",
                         "name": "id"
                     },
                     "on": {
-                        "id": "bgenkk",
+                        "id": "7lmlgp",
                         "name": "category"
                     }
                 }
             },
             {
-                "id": "a03jusr",
+                "id": "m5auq",
                 "name": "unit",
-                "type": "integer",
+                "type": "biginteger",
                 "length": "",
                 "defValue": "",
                 "comment": "",
                 "autoInc": false,
-                "nullable": true,
+                "nullable": false,
                 "unique": false,
                 "index": false,
                 "unsigned": true,
                 "foreignKey": {
                     "references": {
-                        "id": "huk5xi",
+                        "id": "w2pppj",
                         "name": "id"
                     },
                     "on": {
-                        "id": "eh4xr",
+                        "id": "3cm6mc",
                         "name": "unit"
                     }
                 }
             }
         ],
-        "k3aew8": [
+        "pmun5d": [
             {
-                "id": "7do3q",
+                "id": "rz2tw",
                 "name": "id",
-                "type": "integer",
+                "type": "uuid",
                 "length": "",
                 "defValue": "",
                 "comment": "",
                 "autoInc": true,
-                "nullable": true,
+                "nullable": false,
                 "unique": true,
                 "index": false,
                 "unsigned": false,
@@ -1222,16 +1153,16 @@
                 }
             }
         ],
-        "adeyic": [
+        "hhsrml": [
             {
-                "id": "km3hxj",
+                "id": "v8cly",
                 "name": "id",
-                "type": "integer",
+                "type": "biginteger",
                 "length": "",
                 "defValue": "",
                 "comment": "",
                 "autoInc": true,
-                "nullable": true,
+                "nullable": false,
                 "unique": true,
                 "index": false,
                 "unsigned": false,
@@ -1247,60 +1178,60 @@
                 }
             },
             {
-                "id": "ipy9mj",
+                "id": "tlj95b",
                 "name": "invoice_id",
-                "type": "integer",
+                "type": "uuid",
                 "length": "",
                 "defValue": "",
                 "comment": "",
                 "autoInc": false,
-                "nullable": true,
+                "nullable": false,
                 "unique": false,
                 "index": false,
-                "unsigned": true,
+                "unsigned": false,
                 "foreignKey": {
                     "references": {
-                        "id": "7do3q",
+                        "id": "rz2tw",
                         "name": "id"
                     },
                     "on": {
-                        "id": "k3aew8",
+                        "id": "pmun5d",
                         "name": "invoice"
                     }
                 }
             },
             {
-                "id": "0h75xl",
+                "id": "71azsi",
                 "name": "area",
-                "type": "integer",
+                "type": "biginteger",
                 "length": "",
                 "defValue": "",
                 "comment": "",
                 "autoInc": false,
-                "nullable": true,
+                "nullable": false,
                 "unique": false,
                 "index": false,
                 "unsigned": true,
                 "foreignKey": {
                     "references": {
-                        "id": "to8du",
+                        "id": "qxmq0m",
                         "name": "id"
                     },
                     "on": {
-                        "id": "7zo9gn",
+                        "id": "h4n2m",
                         "name": "place"
                     }
                 }
             },
             {
-                "id": "mdv3pd",
+                "id": "q7t8u",
                 "name": "date",
                 "type": "string",
                 "length": "",
                 "defValue": "",
                 "comment": "",
                 "autoInc": false,
-                "nullable": true,
+                "nullable": false,
                 "unique": false,
                 "index": false,
                 "unsigned": false,
@@ -1316,14 +1247,14 @@
                 }
             },
             {
-                "id": "rg5i5",
+                "id": "44frdx",
                 "name": "amount",
                 "type": "string",
                 "length": "",
                 "defValue": "",
                 "comment": "",
                 "autoInc": false,
-                "nullable": true,
+                "nullable": false,
                 "unique": false,
                 "index": false,
                 "unsigned": false,
@@ -1339,14 +1270,14 @@
                 }
             },
             {
-                "id": "wnoh6j",
+                "id": "wdmv8n",
                 "name": "tax_amount",
                 "type": "string",
                 "length": "",
                 "defValue": "",
                 "comment": "",
                 "autoInc": false,
-                "nullable": true,
+                "nullable": false,
                 "unique": false,
                 "index": false,
                 "unsigned": false,
@@ -1362,37 +1293,37 @@
                 }
             },
             {
-                "id": "oh975g",
+                "id": "zxgblj",
                 "name": "customer",
-                "type": "integer",
+                "type": "biginteger",
                 "length": "",
                 "defValue": "",
                 "comment": "",
                 "autoInc": false,
-                "nullable": true,
+                "nullable": false,
                 "unique": false,
                 "index": false,
                 "unsigned": true,
                 "foreignKey": {
                     "references": {
-                        "id": "thqj2u",
+                        "id": "7mnqyu",
                         "name": "id"
                     },
                     "on": {
-                        "id": "wg5fe8",
+                        "id": "eli6mi",
                         "name": "organization"
                     }
                 }
             },
             {
-                "id": "f4gcmr",
+                "id": "t2ggq",
                 "name": "code",
                 "type": "string",
                 "length": "",
                 "defValue": "",
                 "comment": "",
                 "autoInc": false,
-                "nullable": true,
+                "nullable": false,
                 "unique": false,
                 "index": false,
                 "unsigned": false,
@@ -1408,14 +1339,14 @@
                 }
             },
             {
-                "id": "y9dy77",
+                "id": "bxtmjm",
                 "name": "order_nr",
                 "type": "string",
                 "length": "",
                 "defValue": "",
                 "comment": "",
                 "autoInc": false,
-                "nullable": true,
+                "nullable": false,
                 "unique": false,
                 "index": false,
                 "unsigned": false,
@@ -1431,14 +1362,14 @@
                 }
             },
             {
-                "id": "0fp48n",
+                "id": "sf1at",
                 "name": "remark",
                 "type": "text",
                 "length": "",
                 "defValue": "",
                 "comment": "",
                 "autoInc": false,
-                "nullable": true,
+                "nullable": false,
                 "unique": false,
                 "index": false,
                 "unsigned": false,
@@ -1454,14 +1385,14 @@
                 }
             },
             {
-                "id": "059pw",
+                "id": "9bzzbr9",
                 "name": "pay_before",
                 "type": "string",
                 "length": "",
                 "defValue": "",
                 "comment": "",
                 "autoInc": false,
-                "nullable": true,
+                "nullable": false,
                 "unique": false,
                 "index": false,
                 "unsigned": false,
@@ -1477,39 +1408,39 @@
                 }
             },
             {
-                "id": "ahrob",
+                "id": "n5jwfixe",
                 "name": "tenant",
-                "type": "integer",
+                "type": "biginteger",
                 "length": "",
                 "defValue": "",
                 "comment": "",
                 "autoInc": false,
-                "nullable": true,
+                "nullable": false,
                 "unique": false,
                 "index": false,
                 "unsigned": true,
                 "foreignKey": {
                     "references": {
-                        "id": "thqj2u",
+                        "id": "7mnqyu",
                         "name": "id"
                     },
                     "on": {
-                        "id": "wg5fe8",
+                        "id": "eli6mi",
                         "name": "organization"
                     }
                 }
             }
         ],
-        "8e0xa4": [
+        "c2fpj": [
             {
-                "id": "if6yl",
+                "id": "f1pi9",
                 "name": "id",
-                "type": "integer",
+                "type": "biginteger",
                 "length": "",
                 "defValue": "",
                 "comment": "",
                 "autoInc": true,
-                "nullable": true,
+                "nullable": false,
                 "unique": true,
                 "index": false,
                 "unsigned": false,
@@ -1525,60 +1456,60 @@
                 }
             },
             {
-                "id": "as6ql8",
+                "id": "ppj5vm",
                 "name": "invoice_id",
-                "type": "integer",
+                "type": "uuid",
                 "length": "",
                 "defValue": "",
                 "comment": "",
                 "autoInc": false,
-                "nullable": true,
+                "nullable": false,
                 "unique": false,
                 "index": false,
-                "unsigned": true,
+                "unsigned": false,
                 "foreignKey": {
                     "references": {
-                        "id": "7do3q",
+                        "id": "rz2tw",
                         "name": "id"
                     },
                     "on": {
-                        "id": "k3aew8",
+                        "id": "pmun5d",
                         "name": "invoice"
                     }
                 }
             },
             {
-                "id": "c47gx5",
+                "id": "horrja",
                 "name": "description",
-                "type": "integer",
+                "type": "biginteger",
                 "length": "",
                 "defValue": "",
                 "comment": "",
                 "autoInc": false,
-                "nullable": true,
+                "nullable": false,
                 "unique": false,
                 "index": false,
                 "unsigned": true,
                 "foreignKey": {
                     "references": {
-                        "id": "i9ukq",
+                        "id": "292pjg",
                         "name": "id"
                     },
                     "on": {
-                        "id": "yz4bwh",
+                        "id": "huumtb",
                         "name": "products"
                     }
                 }
             },
             {
-                "id": "771kn",
+                "id": "tea28p",
                 "name": "tax",
                 "type": "string",
                 "length": "",
                 "defValue": "",
                 "comment": "",
                 "autoInc": false,
-                "nullable": true,
+                "nullable": false,
                 "unique": false,
                 "index": false,
                 "unsigned": false,
@@ -1594,14 +1525,14 @@
                 }
             },
             {
-                "id": "vs684r",
+                "id": "7trtyb",
                 "name": "tax_amount",
                 "type": "string",
                 "length": "",
                 "defValue": "",
                 "comment": "",
                 "autoInc": false,
-                "nullable": true,
+                "nullable": false,
                 "unique": false,
                 "index": false,
                 "unsigned": false,
@@ -1617,14 +1548,14 @@
                 }
             },
             {
-                "id": "izq138",
+                "id": "hqm8d",
                 "name": "qty",
                 "type": "string",
                 "length": "",
                 "defValue": "",
                 "comment": "",
                 "autoInc": false,
-                "nullable": true,
+                "nullable": false,
                 "unique": false,
                 "index": false,
                 "unsigned": false,
@@ -1640,37 +1571,37 @@
                 }
             },
             {
-                "id": "k6qa3r",
+                "id": "bysgv",
                 "name": "unit",
-                "type": "",
+                "type": "biginteger",
                 "length": "",
                 "defValue": "",
                 "comment": "",
                 "autoInc": false,
-                "nullable": true,
+                "nullable": false,
                 "unique": false,
                 "index": false,
-                "unsigned": false,
+                "unsigned": true,
                 "foreignKey": {
                     "references": {
-                        "id": "",
-                        "name": ""
+                        "id": "w2pppj",
+                        "name": "id"
                     },
                     "on": {
-                        "id": "",
-                        "name": ""
+                        "id": "3cm6mc",
+                        "name": "unit"
                     }
                 }
             },
             {
-                "id": "p7r6mv",
+                "id": "bvfmhn",
                 "name": "price",
                 "type": "string",
                 "length": "",
                 "defValue": "",
                 "comment": "",
                 "autoInc": false,
-                "nullable": true,
+                "nullable": false,
                 "unique": false,
                 "index": false,
                 "unsigned": false,
@@ -1686,14 +1617,14 @@
                 }
             },
             {
-                "id": "syg0as",
+                "id": "q58lrh",
                 "name": "item_total",
                 "type": "string",
                 "length": "",
                 "defValue": "",
                 "comment": "",
                 "autoInc": false,
-                "nullable": true,
+                "nullable": false,
                 "unique": false,
                 "index": false,
                 "unsigned": false,
@@ -1709,16 +1640,16 @@
                 }
             }
         ],
-        "bgenkk": [
+        "7lmlgp": [
             {
-                "id": "ivsceu",
+                "id": "abxgvu",
                 "name": "id",
-                "type": "integer",
+                "type": "biginteger",
                 "length": "",
                 "defValue": "",
                 "comment": "",
                 "autoInc": true,
-                "nullable": true,
+                "nullable": false,
                 "unique": true,
                 "index": false,
                 "unsigned": false,
@@ -1734,14 +1665,14 @@
                 }
             },
             {
-                "id": "r5or1",
+                "id": "4ijqg",
                 "name": "name",
                 "type": "string",
                 "length": "",
                 "defValue": "",
                 "comment": "",
                 "autoInc": false,
-                "nullable": true,
+                "nullable": false,
                 "unique": false,
                 "index": false,
                 "unsigned": false,
@@ -1757,16 +1688,16 @@
                 }
             }
         ],
-        "eh4xr": [
+        "3cm6mc": [
             {
-                "id": "huk5xi",
+                "id": "w2pppj",
                 "name": "id",
-                "type": "integer",
+                "type": "biginteger",
                 "length": "",
                 "defValue": "",
                 "comment": "",
                 "autoInc": true,
-                "nullable": true,
+                "nullable": false,
                 "unique": true,
                 "index": false,
                 "unsigned": false,
@@ -1782,14 +1713,14 @@
                 }
             },
             {
-                "id": "b8dov4",
+                "id": "6wcgi",
                 "name": "name",
                 "type": "string",
                 "length": "",
                 "defValue": "",
                 "comment": "",
                 "autoInc": false,
-                "nullable": true,
+                "nullable": false,
                 "unique": false,
                 "index": false,
                 "unsigned": false,
@@ -1805,16 +1736,16 @@
                 }
             }
         ],
-        "m796nl": [
+        "ztoa4c": [
             {
-                "id": "y8smik",
+                "id": "xg3q9j",
                 "name": "id",
-                "type": "integer",
+                "type": "biginteger",
                 "length": "",
                 "defValue": "",
                 "comment": "",
                 "autoInc": true,
-                "nullable": true,
+                "nullable": false,
                 "unique": true,
                 "index": false,
                 "unsigned": false,
@@ -1830,14 +1761,14 @@
                 }
             },
             {
-                "id": "3692cif",
+                "id": "t8xsaj",
                 "name": "name",
                 "type": "string",
                 "length": "",
                 "defValue": "",
                 "comment": "",
                 "autoInc": false,
-                "nullable": true,
+                "nullable": false,
                 "unique": false,
                 "index": false,
                 "unsigned": false,
@@ -1853,14 +1784,14 @@
                 }
             },
             {
-                "id": "v0tukal",
+                "id": "zlsp88",
                 "name": "percentage",
                 "type": "string",
                 "length": "",
                 "defValue": "",
                 "comment": "",
                 "autoInc": false,
-                "nullable": true,
+                "nullable": false,
                 "unique": false,
                 "index": false,
                 "unsigned": false,
@@ -1879,166 +1810,163 @@
     },
     "relations": [
         {
-            "source": [],
-            "target": []
-        },
-        {
             "source": {
-                "columnId": "0h75xl",
-                "tableId": "adeyic"
+                "columnId": "eui9ri",
+                "tableId": "eli6mi"
             },
             "target": {
-                "columnId": "to8du",
-                "tableId": "7zo9gn"
+                "columnId": "tz8d",
+                "tableId": "19a57i"
             }
         },
         {
             "source": {
-                "columnId": "ipy9mj",
-                "tableId": "adeyic"
+                "columnId": "xavj7l",
+                "tableId": "eli6mi"
             },
             "target": {
-                "columnId": "7do3q",
-                "tableId": "k3aew8"
+                "columnId": "qxmq0m",
+                "tableId": "h4n2m"
             }
         },
         {
             "source": {
-                "columnId": "4v78vg",
-                "tableId": "wg5fe8"
+                "columnId": "v8rtgd",
+                "tableId": "h4n2m"
             },
             "target": {
-                "columnId": "lo8rm",
-                "tableId": "5hcbm"
+                "columnId": "tz8d",
+                "tableId": "19a57i"
             }
         },
         {
             "source": {
-                "columnId": "x0r6s6",
-                "tableId": "wg5fe8"
+                "columnId": "qpj3w19",
+                "tableId": "h4n2m"
             },
             "target": {
-                "columnId": "to8du",
-                "tableId": "7zo9gn"
+                "columnId": "cnw2df",
+                "tableId": "3vo3q"
             }
         },
         {
             "source": {
-                "columnId": "5lnskt",
-                "tableId": "7zo9gn"
+                "columnId": "k38kxl",
+                "tableId": "19a57i"
             },
             "target": {
-                "columnId": "lo8rm",
-                "tableId": "5hcbm"
+                "columnId": "3jtjtr",
+                "tableId": "jpjv8"
             }
         },
         {
             "source": {
-                "columnId": "l3a8lt",
-                "tableId": "7zo9gn"
+                "columnId": "qyu9d",
+                "tableId": "eli6mi"
             },
             "target": {
-                "columnId": "6ldtf",
-                "tableId": "xl5ox"
+                "columnId": "ku4elp",
+                "tableId": "s6ml7s"
             }
         },
         {
             "source": {
-                "columnId": "glrj5",
-                "tableId": "5hcbm"
+                "columnId": "71azsi",
+                "tableId": "hhsrml"
             },
             "target": {
-                "columnId": "09m328",
-                "tableId": "kqilbd"
+                "columnId": "qxmq0m",
+                "tableId": "h4n2m"
             }
         },
         {
             "source": {
-                "columnId": "ec6y06",
-                "tableId": "wg5fe8"
+                "columnId": "tlj95b",
+                "tableId": "hhsrml"
             },
             "target": {
-                "columnId": "vrjbn4",
-                "tableId": "gs3l5"
+                "columnId": "rz2tw",
+                "tableId": "pmun5d"
             }
         },
         {
             "source": {
-                "tableId": "adeyic"
+                "columnId": "zxgblj",
+                "tableId": "hhsrml"
             },
             "target": {
-                "columnId": "thqj2u",
-                "tableId": "wg5fe8"
+                "columnId": "7mnqyu",
+                "tableId": "eli6mi"
             }
         },
         {
             "source": {
-                "columnId": "ahrob",
-                "tableId": "adeyic"
+                "columnId": "n5jwfixe",
+                "tableId": "hhsrml"
             },
             "target": {
-                "columnId": "thqj2u",
-                "tableId": "wg5fe8"
+                "columnId": "7mnqyu",
+                "tableId": "eli6mi"
             }
         },
         {
             "source": {
-                "columnId": "as6ql8",
-                "tableId": "8e0xa4"
+                "columnId": "ppj5vm",
+                "tableId": "c2fpj"
             },
             "target": {
-                "columnId": "7do3q",
-                "tableId": "k3aew8"
+                "columnId": "rz2tw",
+                "tableId": "pmun5d"
             }
         },
         {
             "source": {
-                "columnId": "c47gx5",
-                "tableId": "8e0xa4"
+                "columnId": "horrja",
+                "tableId": "c2fpj"
             },
             "target": {
-                "columnId": "i9ukq",
-                "tableId": "yz4bwh"
+                "columnId": "292pjg",
+                "tableId": "huumtb"
             }
         },
         {
             "source": {
-                "columnId": "20wyvj",
-                "tableId": "yz4bwh"
+                "columnId": "bysgv",
+                "tableId": "c2fpj"
             },
             "target": {
-                "columnId": "ivsceu",
-                "tableId": "bgenkk"
+                "columnId": "w2pppj",
+                "tableId": "3cm6mc"
             }
         },
         {
             "source": {
-                "columnId": "a03jusr",
-                "tableId": "yz4bwh"
+                "columnId": "fzk2wg",
+                "tableId": "huumtb"
             },
             "target": {
-                "columnId": "huk5xi",
-                "tableId": "eh4xr"
+                "columnId": "abxgvu",
+                "tableId": "7lmlgp"
             }
         },
         {
             "source": {
-                "columnId": "33fg7",
-                "tableId": "yz4bwh"
+                "columnId": "m5auq",
+                "tableId": "huumtb"
             },
             "target": {
-                "columnId": "y8smik",
-                "tableId": "m796nl"
+                "columnId": "w2pppj",
+                "tableId": "3cm6mc"
             }
         },
         {
             "source": {
-                "columnId": "oh975g",
-                "tableId": "adeyic"
+                "columnId": "gpndhl",
+                "tableId": "huumtb"
             },
             "target": {
-                "columnId": "thqj2u",
-                "tableId": "wg5fe8"
+                "columnId": "xg3q9j",
+                "tableId": "ztoa4c"
             }
         }
     ]

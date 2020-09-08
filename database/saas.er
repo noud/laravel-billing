@@ -9,8 +9,9 @@ title {label: "SaaS"}
 +organization_id {label: "bigint"}
 name
 email
-email_verified_at {label: "timestamp"}
-remember_token {label: "boolean"}
+email_verified_at {label: "timestamp, null"}
+password
+remember_token {label: "string", length: "100"}
 
 [password_resets]
 *id {label: "bigint"}
