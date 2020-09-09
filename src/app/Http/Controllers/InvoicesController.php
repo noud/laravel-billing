@@ -17,20 +17,24 @@ class InvoicesController extends Controller
 
         $invoiceDetails = $invoice->invoice_details()->first();
         $customer = $invoiceDetails->customer()->first();
-        $client = $invoiceDetails->tenant()->first();
+        $tenant = $invoiceDetails->tenant()->first();
+        // @todo country dependent
+        $customerAddress = $customer->postal_address->street_address . ' '. $customer->postal_address->postal_code . ' '. $customer->postal_address->address_locality;
+        // $tenantAddress = $tenant->postal_address->street_address . ' '. $tenant->postal_address->postal_code . ' '. $tenant->postal_address->address_locality;
 
         $client = new Party([
-            'name'          => $client->legal_name,
-            'phone'         => $client->telephone,
+            'name'          => $tenant->legal_name,
+            // 'address'       => $tenantAddress,
+            'phone'         => $tenant->telephone,
             'custom_fields' => [
                 'note'        => 'IDDQD',
                 'business id' => '365#GG',
             ],
         ]);
 
-        $customer = new Party([
+        $invoicedCustomer = new Party([
             'name'          => $customer->legal_name,
-            'address'       => 'The Green Street 12',
+            'address'       => $customerAddress,
             'code'          => '#22663214',
             'custom_fields' => [
                 'order number' => '> 654321 <',
@@ -61,20 +65,27 @@ class InvoicesController extends Controller
         $notes = implode("<br>", $notes);
 
         $invoice = LaravelDailyInvoice::make('receipt')
-            ->series('BIG')
-            ->sequence(667)
-            ->serialNumberFormat('{SEQUENCE}/{SERIES}')
+            // ->date(now()->subWeeks(3))
             ->seller($client)
-            ->buyer($customer)
-            ->date(now()->subWeeks(3))
-            ->dateFormat('m/d/Y')
-            ->payUntilDays(14)
-            ->currencySymbol('$')
-            ->currencyCode('USD')
-            ->currencyFormat('{SYMBOL}{VALUE}')
-            ->currencyThousandsSeparator('.')
-            ->currencyDecimalPoint(',')
-            ->filename($client->name . ' ' . $customer->name)
+            ->buyer($invoicedCustomer);
+
+        $tenantSerial = $tenant->invoice_serials()->first();
+        $invoice->series($tenantSerial->serial_number_series)
+            ->sequence($tenantSerial->serial_number_sequence)
+            ->serialNumberFormat($tenantSerial->serial_number_format)
+            ->payUntilDays($tenantSerial->pay_until_days);
+
+        $customerDate = $customer->postal_address->country->date()->first();
+        $invoice->dateFormat($customerDate->format);
+
+        $customerCurrency = $customer->postal_address->country->currency()->first();
+        $invoice->currencySymbol($customerCurrency->symbol)
+            ->currencyCode($customerCurrency->code)
+            ->currencyFormat($customerCurrency->format)
+            ->currencyThousandsSeparator($customerCurrency->thousands_separator)
+            ->currencyDecimalPoint($customerCurrency->decimal_point);
+
+        $invoice->filename($tenant->name . ' ' . $customer->name)
             ->addItems($items)
             ->notes($notes)
             // ->logo(public_path('vendor/invoices/sample-logo.png'))
