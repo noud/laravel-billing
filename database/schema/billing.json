@@ -46,180 +46,180 @@
             "tableId": ""
         },
         "positions": {
-            "6j9mxd": {
-                "x": 42,
-                "y": 390
+            "6xtg6a": {
+                "x": 41,
+                "y": 393
             },
-            "vy1vz": {
-                "x": 590,
-                "y": 517
+            "6hsogu": {
+                "x": 595,
+                "y": 522
             },
-            "vs9gwa": {
-                "x": 818,
-                "y": 732
+            "l6rm6": {
+                "x": 824,
+                "y": 734
             },
-            "gxvle": {
-                "x": 819,
-                "y": 463
+            "vlz4a7": {
+                "x": 825,
+                "y": 466
             },
-            "xcd89": {
-                "x": 1060,
-                "y": 496
+            "5x986m": {
+                "x": 1053,
+                "y": 468
             },
-            "xdcmga": {
-                "x": 1278,
-                "y": 450
+            "mmkz2o": {
+                "x": 1296,
+                "y": 441
             },
-            "o2h1ew": {
-                "x": 1279,
-                "y": 786
+            "w2knuh": {
+                "x": 1318,
+                "y": 739
             },
-            "mdmwkm": {
-                "x": 307,
-                "y": 744
+            "iwuh2tr": {
+                "x": 294,
+                "y": 790
             },
-            "ezuyz": {
-                "x": 1068,
+            "l6075e": {
+                "x": 1095,
                 "y": 0
             },
-            "9ccvth": {
-                "x": 46,
-                "y": 109
+            "vxhqrb": {
+                "x": 47,
+                "y": 91
             },
-            "jrmhg": {
-                "x": 592,
+            "4sjpl": {
+                "x": 631,
                 "y": 0
             },
-            "m5unrn": {
-                "x": 364,
+            "2vorl": {
+                "x": 370,
                 "y": 0
             },
-            "k6yft7": {
-                "x": 820,
-                "y": 92
+            "s9x2zf": {
+                "x": 850,
+                "y": 89
             },
-            "ukrfe9": {
-                "x": 1302,
-                "y": 173
+            "hqrc1w": {
+                "x": 1319,
+                "y": 167
             },
-            "zc425": {
-                "x": 1303,
-                "y": 311
+            "ya99l9": {
+                "x": 1321,
+                "y": 303
             },
-            "l6aws6": {
-                "x": 1301,
-                "y": 3
+            "8i8eos": {
+                "x": 1319,
+                "y": 0
             }
         }
     },
     "tables": [
         {
-            "id": "6j9mxd",
+            "id": "6xtg6a",
             "name": "organization",
             "color": "table-header-green",
             "softDelete": false,
             "timeStamp": true
         },
         {
-            "id": "vy1vz",
+            "id": "6hsogu",
             "name": "place",
             "color": "table-header-green",
             "softDelete": false,
             "timeStamp": true
         },
         {
-            "id": "vs9gwa",
+            "id": "l6rm6",
             "name": "geo_coordinate",
             "color": "table-header-green",
             "softDelete": false,
             "timeStamp": true
         },
         {
-            "id": "gxvle",
+            "id": "vlz4a7",
             "name": "postal_address",
             "color": "table-header-green",
             "softDelete": false,
             "timeStamp": true
         },
         {
-            "id": "xcd89",
+            "id": "5x986m",
             "name": "country",
             "color": "table-header-green",
             "softDelete": false,
             "timeStamp": true
         },
         {
-            "id": "xdcmga",
+            "id": "mmkz2o",
             "name": "currency",
             "color": "table-header-blue",
             "softDelete": false,
             "timeStamp": true
         },
         {
-            "id": "o2h1ew",
+            "id": "w2knuh",
             "name": "date",
             "color": "table-header-blue",
             "softDelete": false,
             "timeStamp": true
         },
         {
-            "id": "mdmwkm",
+            "id": "iwuh2tr",
             "name": "thing",
             "color": "table-header-green",
             "softDelete": false,
             "timeStamp": true
         },
         {
-            "id": "ezuyz",
+            "id": "l6075e",
             "name": "products",
             "color": "table-header-blue",
             "softDelete": false,
             "timeStamp": true
         },
         {
-            "id": "9ccvth",
+            "id": "vxhqrb",
             "name": "invoice_serial",
             "color": "table-header-blue",
             "softDelete": false,
             "timeStamp": true
         },
         {
-            "id": "jrmhg",
+            "id": "4sjpl",
             "name": "invoice",
             "color": "table-header-blue",
             "softDelete": false,
             "timeStamp": true
         },
         {
-            "id": "m5unrn",
+            "id": "2vorl",
             "name": "invoice_detail",
             "color": "table-header-blue",
             "softDelete": false,
             "timeStamp": true
         },
         {
-            "id": "k6yft7",
+            "id": "s9x2zf",
             "name": "invoice_item_detail",
             "color": "table-header-blue",
             "softDelete": false,
             "timeStamp": true
         },
         {
-            "id": "ukrfe9",
+            "id": "hqrc1w",
             "name": "category",
             "color": "table-header-blue",
             "softDelete": false,
             "timeStamp": true
         },
         {
-            "id": "zc425",
+            "id": "ya99l9",
             "name": "unit",
             "color": "table-header-blue",
             "softDelete": false,
             "timeStamp": true
         },
         {
-            "id": "l6aws6",
+            "id": "8i8eos",
             "name": "tax",
             "color": "table-header-blue",
             "softDelete": false,
@@ -227,9 +227,9 @@
         }
     ],
     "columns": {
-        "6j9mxd": [
+        "6xtg6a": [
             {
-                "id": "sz5769",
+                "id": "95zmc",
                 "name": "id",
                 "type": "biginteger",
                 "length": "",
@@ -252,7 +252,7 @@
                 }
             },
             {
-                "id": "ihkmfr",
+                "id": "5lt7m",
                 "name": "address_id",
                 "type": "biginteger",
                 "length": "",
@@ -265,17 +265,17 @@
                 "unsigned": true,
                 "foreignKey": {
                     "references": {
-                        "id": "vui2u5",
+                        "id": "9qvkzj",
                         "name": "id"
                     },
                     "on": {
-                        "id": "gxvle",
+                        "id": "vlz4a7",
                         "name": "postal_address"
                     }
                 }
             },
             {
-                "id": "35q1s8",
+                "id": "niegd",
                 "name": "email",
                 "type": "string",
                 "length": "",
@@ -298,7 +298,7 @@
                 }
             },
             {
-                "id": "jyvaat",
+                "id": "sv5utf",
                 "name": "legal_name",
                 "type": "string",
                 "length": "",
@@ -321,7 +321,7 @@
                 }
             },
             {
-                "id": "f94cek",
+                "id": "nj7wf",
                 "name": "location_id",
                 "type": "biginteger",
                 "length": "",
@@ -334,17 +334,17 @@
                 "unsigned": true,
                 "foreignKey": {
                     "references": {
-                        "id": "375ww",
+                        "id": "gz7spg",
                         "name": "id"
                     },
                     "on": {
-                        "id": "vy1vz",
+                        "id": "6hsogu",
                         "name": "place"
                     }
                 }
             },
             {
-                "id": "6eifh7",
+                "id": "hggcm",
                 "name": "telephone",
                 "type": "string",
                 "length": "",
@@ -367,7 +367,7 @@
                 }
             },
             {
-                "id": "58u8ip",
+                "id": "l14pht",
                 "name": "thing_id",
                 "type": "biginteger",
                 "length": "",
@@ -380,17 +380,17 @@
                 "unsigned": true,
                 "foreignKey": {
                     "references": {
-                        "id": "sg2ynv",
+                        "id": "3djpn",
                         "name": "id"
                     },
                     "on": {
-                        "id": "mdmwkm",
+                        "id": "iwuh2tr",
                         "name": "thing"
                     }
                 }
             },
             {
-                "id": "cpmvae",
+                "id": "wyviic",
                 "name": "contact",
                 "type": "string",
                 "length": "",
@@ -413,7 +413,7 @@
                 }
             },
             {
-                "id": "fiuw5h",
+                "id": "0kvjop",
                 "name": "mobile",
                 "type": "string",
                 "length": "",
@@ -436,7 +436,7 @@
                 }
             },
             {
-                "id": "2bw99p",
+                "id": "9vhzvf",
                 "name": "vat",
                 "type": "string",
                 "length": "",
@@ -459,7 +459,7 @@
                 }
             },
             {
-                "id": "w4ecs6",
+                "id": "6faed",
                 "name": "kvk",
                 "type": "string",
                 "length": "",
@@ -482,7 +482,7 @@
                 }
             },
             {
-                "id": "epnj4k",
+                "id": "eulog",
                 "name": "bank_number",
                 "type": "string",
                 "length": "",
@@ -505,7 +505,7 @@
                 }
             },
             {
-                "id": "zfrb7p",
+                "id": "il8kqm",
                 "name": "bank_name",
                 "type": "string",
                 "length": "",
@@ -528,7 +528,7 @@
                 }
             },
             {
-                "id": "b2hyo7",
+                "id": "2cdxs",
                 "name": "swift",
                 "type": "string",
                 "length": "",
@@ -551,7 +551,7 @@
                 }
             },
             {
-                "id": "ikebkc",
+                "id": "b3pbgp",
                 "name": "pin",
                 "type": "string",
                 "length": "",
@@ -574,7 +574,7 @@
                 }
             },
             {
-                "id": "48ntad",
+                "id": "u94zz",
                 "name": "tin",
                 "type": "string",
                 "length": "",
@@ -597,9 +597,9 @@
                 }
             }
         ],
-        "vy1vz": [
+        "6hsogu": [
             {
-                "id": "375ww",
+                "id": "gz7spg",
                 "name": "id",
                 "type": "biginteger",
                 "length": "",
@@ -622,7 +622,7 @@
                 }
             },
             {
-                "id": "km7w2",
+                "id": "gqayk",
                 "name": "address_id",
                 "type": "biginteger",
                 "length": "",
@@ -635,17 +635,17 @@
                 "unsigned": true,
                 "foreignKey": {
                     "references": {
-                        "id": "vui2u5",
+                        "id": "9qvkzj",
                         "name": "id"
                     },
                     "on": {
-                        "id": "gxvle",
+                        "id": "vlz4a7",
                         "name": "postal_address"
                     }
                 }
             },
             {
-                "id": "x5cwca",
+                "id": "9zfb0u",
                 "name": "geo_id",
                 "type": "biginteger",
                 "length": "",
@@ -658,19 +658,19 @@
                 "unsigned": true,
                 "foreignKey": {
                     "references": {
-                        "id": "tiu2ds",
+                        "id": "u69d68",
                         "name": "id"
                     },
                     "on": {
-                        "id": "vs9gwa",
+                        "id": "l6rm6",
                         "name": "geo_coordinate"
                     }
                 }
             }
         ],
-        "vs9gwa": [
+        "l6rm6": [
             {
-                "id": "tiu2ds",
+                "id": "u69d68",
                 "name": "id",
                 "type": "biginteger",
                 "length": "",
@@ -693,7 +693,7 @@
                 }
             },
             {
-                "id": "hjt97j",
+                "id": "y7g1on",
                 "name": "latitude",
                 "type": "string",
                 "length": "",
@@ -716,7 +716,7 @@
                 }
             },
             {
-                "id": "mkaaa",
+                "id": "4r81kt",
                 "name": "longitude",
                 "type": "string",
                 "length": "",
@@ -739,9 +739,9 @@
                 }
             }
         ],
-        "gxvle": [
+        "vlz4a7": [
             {
-                "id": "vui2u5",
+                "id": "9qvkzj",
                 "name": "id",
                 "type": "biginteger",
                 "length": "",
@@ -764,7 +764,7 @@
                 }
             },
             {
-                "id": "h1kkdd",
+                "id": "5ltlo",
                 "name": "address_country",
                 "type": "string",
                 "length": "",
@@ -777,17 +777,17 @@
                 "unsigned": false,
                 "foreignKey": {
                     "references": {
-                        "id": "thzrco",
+                        "id": "5mjxf6",
                         "name": "id"
                     },
                     "on": {
-                        "id": "xcd89",
+                        "id": "5x986m",
                         "name": "country"
                     }
                 }
             },
             {
-                "id": "z7dsmt",
+                "id": "uyp3r3",
                 "name": "address_locality",
                 "type": "string",
                 "length": "",
@@ -810,7 +810,7 @@
                 }
             },
             {
-                "id": "mth5ss",
+                "id": "ki4q2d",
                 "name": "address_region",
                 "type": "string",
                 "length": "",
@@ -833,7 +833,7 @@
                 }
             },
             {
-                "id": "xddjy",
+                "id": "kktwge",
                 "name": "postal_code",
                 "type": "string",
                 "length": "",
@@ -856,7 +856,7 @@
                 }
             },
             {
-                "id": "a9axa",
+                "id": "nvgz0l",
                 "name": "street_address",
                 "type": "string",
                 "length": "",
@@ -879,9 +879,9 @@
                 }
             }
         ],
-        "xcd89": [
+        "5x986m": [
             {
-                "id": "thzrco",
+                "id": "5mjxf6",
                 "name": "id",
                 "type": "string",
                 "length": "",
@@ -904,7 +904,7 @@
                 }
             },
             {
-                "id": "kiokce",
+                "id": "kwj23",
                 "name": "name",
                 "type": "string",
                 "length": "",
@@ -927,56 +927,56 @@
                 }
             },
             {
-                "id": "yphypu",
+                "id": "5mlsuk",
                 "name": "currency",
                 "type": "string",
                 "length": "",
                 "defValue": "",
                 "comment": "",
                 "autoInc": false,
-                "nullable": false,
+                "nullable": true,
                 "unique": false,
                 "index": false,
                 "unsigned": false,
                 "foreignKey": {
                     "references": {
-                        "id": "z5ufi",
-                        "name": "id"
+                        "id": "k50o1p",
+                        "name": "code"
                     },
                     "on": {
-                        "id": "xdcmga",
+                        "id": "mmkz2o",
                         "name": "currency"
                     }
                 }
             },
             {
-                "id": "tfk2r",
+                "id": "2rbyw",
                 "name": "date",
-                "type": "string",
+                "type": "integer",
                 "length": "",
                 "defValue": "",
                 "comment": "",
                 "autoInc": false,
-                "nullable": false,
+                "nullable": true,
                 "unique": false,
                 "index": false,
-                "unsigned": false,
+                "unsigned": true,
                 "foreignKey": {
                     "references": {
-                        "id": "i52zq",
+                        "id": "az2z6b",
                         "name": "id"
                     },
                     "on": {
-                        "id": "o2h1ew",
+                        "id": "w2knuh",
                         "name": "date"
                     }
                 }
             }
         ],
-        "xdcmga": [
+        "mmkz2o": [
             {
-                "id": "z5ufi",
-                "name": "id",
+                "id": "k50o1p",
+                "name": "code",
                 "type": "string",
                 "length": "",
                 "defValue": "",
@@ -998,30 +998,7 @@
                 }
             },
             {
-                "id": "al6mqd",
-                "name": "code",
-                "type": "string",
-                "length": "",
-                "defValue": "",
-                "comment": "",
-                "autoInc": false,
-                "nullable": false,
-                "unique": false,
-                "index": false,
-                "unsigned": false,
-                "foreignKey": {
-                    "references": {
-                        "id": "",
-                        "name": ""
-                    },
-                    "on": {
-                        "id": "",
-                        "name": ""
-                    }
-                }
-            },
-            {
-                "id": "bd7v6",
+                "id": "us0y8j",
                 "name": "symbol",
                 "type": "string",
                 "length": "",
@@ -1044,7 +1021,7 @@
                 }
             },
             {
-                "id": "9c5t",
+                "id": "ryjs6q",
                 "name": "fraction",
                 "type": "string",
                 "length": "",
@@ -1067,7 +1044,7 @@
                 }
             },
             {
-                "id": "ra3bio",
+                "id": "4byr4",
                 "name": "format",
                 "type": "string",
                 "length": "",
@@ -1090,7 +1067,7 @@
                 }
             },
             {
-                "id": "n96dl",
+                "id": "u9ghae",
                 "name": "thousands_separator",
                 "type": "string",
                 "length": "",
@@ -1113,7 +1090,7 @@
                 }
             },
             {
-                "id": "wejl1",
+                "id": "3dksp",
                 "name": "decimal_point",
                 "type": "string",
                 "length": "",
@@ -1136,9 +1113,9 @@
                 }
             },
             {
-                "id": "hdazi",
+                "id": "8r1p5",
                 "name": "decimals",
-                "type": "string",
+                "type": "integer",
                 "length": "",
                 "defValue": "",
                 "comment": "",
@@ -1159,11 +1136,11 @@
                 }
             }
         ],
-        "o2h1ew": [
+        "w2knuh": [
             {
-                "id": "i52zq",
+                "id": "az2z6b",
                 "name": "id",
-                "type": "string",
+                "type": "integer",
                 "length": "",
                 "defValue": "",
                 "comment": "",
@@ -1184,7 +1161,7 @@
                 }
             },
             {
-                "id": "pip72u",
+                "id": "2sle5n",
                 "name": "format",
                 "type": "string",
                 "length": "",
@@ -1207,9 +1184,9 @@
                 }
             }
         ],
-        "mdmwkm": [
+        "iwuh2tr": [
             {
-                "id": "sg2ynv",
+                "id": "3djpn",
                 "name": "id",
                 "type": "biginteger",
                 "length": "",
@@ -1232,7 +1209,7 @@
                 }
             },
             {
-                "id": "sdx5qr",
+                "id": "uiyci",
                 "name": "url",
                 "type": "string",
                 "length": "",
@@ -1255,9 +1232,9 @@
                 }
             }
         ],
-        "ezuyz": [
+        "l6075e": [
             {
-                "id": "05uiod",
+                "id": "z5tci",
                 "name": "id",
                 "type": "biginteger",
                 "length": "",
@@ -1280,7 +1257,7 @@
                 }
             },
             {
-                "id": "874t4n",
+                "id": "a44twh",
                 "name": "name",
                 "type": "string",
                 "length": "",
@@ -1303,7 +1280,7 @@
                 }
             },
             {
-                "id": "tuu58",
+                "id": "0u2sz",
                 "name": "price",
                 "type": "string",
                 "length": "",
@@ -1326,7 +1303,7 @@
                 }
             },
             {
-                "id": "07vt5f",
+                "id": "i338in",
                 "name": "tax",
                 "type": "biginteger",
                 "length": "",
@@ -1339,17 +1316,17 @@
                 "unsigned": true,
                 "foreignKey": {
                     "references": {
-                        "id": "ayymas",
+                        "id": "3s3t5i",
                         "name": "id"
                     },
                     "on": {
-                        "id": "l6aws6",
+                        "id": "8i8eos",
                         "name": "tax"
                     }
                 }
             },
             {
-                "id": "par9lt",
+                "id": "w5710m",
                 "name": "tax_amount",
                 "type": "string",
                 "length": "",
@@ -1372,7 +1349,7 @@
                 }
             },
             {
-                "id": "4jcbsu",
+                "id": "azedah",
                 "name": "quantity",
                 "type": "string",
                 "length": "",
@@ -1395,7 +1372,7 @@
                 }
             },
             {
-                "id": "eggkg5",
+                "id": "s7mnqo",
                 "name": "category",
                 "type": "biginteger",
                 "length": "",
@@ -1408,17 +1385,17 @@
                 "unsigned": true,
                 "foreignKey": {
                     "references": {
-                        "id": "us94d2",
+                        "id": "mi3w3",
                         "name": "id"
                     },
                     "on": {
-                        "id": "ukrfe9",
+                        "id": "hqrc1w",
                         "name": "category"
                     }
                 }
             },
             {
-                "id": "6xv7d5",
+                "id": "xgnqk",
                 "name": "unit",
                 "type": "biginteger",
                 "length": "",
@@ -1431,19 +1408,19 @@
                 "unsigned": true,
                 "foreignKey": {
                     "references": {
-                        "id": "0fkjc7",
+                        "id": "munp9o",
                         "name": "id"
                     },
                     "on": {
-                        "id": "zc425",
+                        "id": "ya99l9",
                         "name": "unit"
                     }
                 }
             }
         ],
-        "9ccvth": [
+        "vxhqrb": [
             {
-                "id": "q8ar0t",
+                "id": "6auk7",
                 "name": "id",
                 "type": "biginteger",
                 "length": "",
@@ -1466,7 +1443,7 @@
                 }
             },
             {
-                "id": "ggd2f6",
+                "id": "y3h5e8",
                 "name": "tenant",
                 "type": "biginteger",
                 "length": "",
@@ -1479,17 +1456,17 @@
                 "unsigned": true,
                 "foreignKey": {
                     "references": {
-                        "id": "sz5769",
+                        "id": "95zmc",
                         "name": "id"
                     },
                     "on": {
-                        "id": "6j9mxd",
+                        "id": "6xtg6a",
                         "name": "organization"
                     }
                 }
             },
             {
-                "id": "u2hq9r",
+                "id": "l0o39",
                 "name": "serial_number_series",
                 "type": "string",
                 "length": "",
@@ -1512,9 +1489,9 @@
                 }
             },
             {
-                "id": "khzehd",
+                "id": "6r5yib",
                 "name": "serial_number_sequence",
-                "type": "string",
+                "type": "integer",
                 "length": "",
                 "defValue": "",
                 "comment": "",
@@ -1535,7 +1512,7 @@
                 }
             },
             {
-                "id": "e7dw2c",
+                "id": "xf3qge",
                 "name": "serial_number_format",
                 "type": "string",
                 "length": "",
@@ -1558,9 +1535,9 @@
                 }
             },
             {
-                "id": "ck5l1m",
+                "id": "a08urp",
                 "name": "pay_until_days",
-                "type": "string",
+                "type": "integer",
                 "length": "",
                 "defValue": "",
                 "comment": "",
@@ -1581,9 +1558,9 @@
                 }
             }
         ],
-        "jrmhg": [
+        "4sjpl": [
             {
-                "id": "8k0ckr",
+                "id": "4080lc",
                 "name": "id",
                 "type": "uuid",
                 "length": "",
@@ -1606,9 +1583,9 @@
                 }
             }
         ],
-        "m5unrn": [
+        "2vorl": [
             {
-                "id": "1cxugl",
+                "id": "ss788",
                 "name": "id",
                 "type": "biginteger",
                 "length": "",
@@ -1631,7 +1608,7 @@
                 }
             },
             {
-                "id": "23rbj6",
+                "id": "svmqem",
                 "name": "invoice_id",
                 "type": "uuid",
                 "length": "",
@@ -1644,17 +1621,17 @@
                 "unsigned": false,
                 "foreignKey": {
                     "references": {
-                        "id": "8k0ckr",
+                        "id": "4080lc",
                         "name": "id"
                     },
                     "on": {
-                        "id": "jrmhg",
+                        "id": "4sjpl",
                         "name": "invoice"
                     }
                 }
             },
             {
-                "id": "zz9acm",
+                "id": "jfsmj",
                 "name": "area",
                 "type": "biginteger",
                 "length": "",
@@ -1667,17 +1644,17 @@
                 "unsigned": true,
                 "foreignKey": {
                     "references": {
-                        "id": "375ww",
+                        "id": "gz7spg",
                         "name": "id"
                     },
                     "on": {
-                        "id": "vy1vz",
+                        "id": "6hsogu",
                         "name": "place"
                     }
                 }
             },
             {
-                "id": "kxra7s",
+                "id": "ma1dim",
                 "name": "date",
                 "type": "string",
                 "length": "",
@@ -1700,7 +1677,7 @@
                 }
             },
             {
-                "id": "o3ns3",
+                "id": "h8whhb",
                 "name": "amount",
                 "type": "string",
                 "length": "",
@@ -1723,7 +1700,7 @@
                 }
             },
             {
-                "id": "nd1r6",
+                "id": "4gqssa",
                 "name": "tax_amount",
                 "type": "string",
                 "length": "",
@@ -1746,7 +1723,7 @@
                 }
             },
             {
-                "id": "7qf5yg",
+                "id": "9dwhrj",
                 "name": "customer",
                 "type": "biginteger",
                 "length": "",
@@ -1759,17 +1736,17 @@
                 "unsigned": true,
                 "foreignKey": {
                     "references": {
-                        "id": "sz5769",
+                        "id": "95zmc",
                         "name": "id"
                     },
                     "on": {
-                        "id": "6j9mxd",
+                        "id": "6xtg6a",
                         "name": "organization"
                     }
                 }
             },
             {
-                "id": "d72tga",
+                "id": "wkvlin",
                 "name": "code",
                 "type": "string",
                 "length": "",
@@ -1792,7 +1769,7 @@
                 }
             },
             {
-                "id": "mfxsz",
+                "id": "u0uu6",
                 "name": "order_nr",
                 "type": "string",
                 "length": "",
@@ -1815,7 +1792,7 @@
                 }
             },
             {
-                "id": "78k4tk",
+                "id": "fqvx",
                 "name": "remark",
                 "type": "text",
                 "length": "",
@@ -1838,7 +1815,7 @@
                 }
             },
             {
-                "id": "ka2t3v",
+                "id": "mfg8z9",
                 "name": "pay_before",
                 "type": "string",
                 "length": "",
@@ -1861,7 +1838,7 @@
                 }
             },
             {
-                "id": "ef31bn",
+                "id": "usk4q9",
                 "name": "tenant",
                 "type": "biginteger",
                 "length": "",
@@ -1874,19 +1851,19 @@
                 "unsigned": true,
                 "foreignKey": {
                     "references": {
-                        "id": "sz5769",
+                        "id": "95zmc",
                         "name": "id"
                     },
                     "on": {
-                        "id": "6j9mxd",
+                        "id": "6xtg6a",
                         "name": "organization"
                     }
                 }
             }
         ],
-        "k6yft7": [
+        "s9x2zf": [
             {
-                "id": "5lklj",
+                "id": "c56d5y",
                 "name": "id",
                 "type": "biginteger",
                 "length": "",
@@ -1909,7 +1886,7 @@
                 }
             },
             {
-                "id": "qho4gl",
+                "id": "m0jfb",
                 "name": "invoice_id",
                 "type": "uuid",
                 "length": "",
@@ -1922,17 +1899,17 @@
                 "unsigned": false,
                 "foreignKey": {
                     "references": {
-                        "id": "8k0ckr",
+                        "id": "4080lc",
                         "name": "id"
                     },
                     "on": {
-                        "id": "jrmhg",
+                        "id": "4sjpl",
                         "name": "invoice"
                     }
                 }
             },
             {
-                "id": "kt4bjm",
+                "id": "x0p4zc",
                 "name": "description",
                 "type": "biginteger",
                 "length": "",
@@ -1945,19 +1922,19 @@
                 "unsigned": true,
                 "foreignKey": {
                     "references": {
-                        "id": "05uiod",
+                        "id": "z5tci",
                         "name": "id"
                     },
                     "on": {
-                        "id": "ezuyz",
+                        "id": "l6075e",
                         "name": "products"
                     }
                 }
             },
             {
-                "id": "qva0l",
+                "id": "ypmylk",
                 "name": "tax",
-                "type": "string",
+                "type": "integer",
                 "length": "",
                 "defValue": "",
                 "comment": "",
@@ -1978,7 +1955,7 @@
                 }
             },
             {
-                "id": "au2x33f",
+                "id": "jwctvi",
                 "name": "tax_amount",
                 "type": "string",
                 "length": "",
@@ -2001,7 +1978,7 @@
                 }
             },
             {
-                "id": "r5732",
+                "id": "m6rk3",
                 "name": "qty",
                 "type": "string",
                 "length": "",
@@ -2024,7 +2001,7 @@
                 }
             },
             {
-                "id": "o8k18r",
+                "id": "cg9se2",
                 "name": "unit",
                 "type": "biginteger",
                 "length": "",
@@ -2037,17 +2014,17 @@
                 "unsigned": true,
                 "foreignKey": {
                     "references": {
-                        "id": "0fkjc7",
+                        "id": "munp9o",
                         "name": "id"
                     },
                     "on": {
-                        "id": "zc425",
+                        "id": "ya99l9",
                         "name": "unit"
                     }
                 }
             },
             {
-                "id": "iit5m7",
+                "id": "n1t8l5",
                 "name": "price",
                 "type": "string",
                 "length": "",
@@ -2070,7 +2047,7 @@
                 }
             },
             {
-                "id": "aeul3t",
+                "id": "fvhx5",
                 "name": "item_total",
                 "type": "string",
                 "length": "",
@@ -2093,9 +2070,9 @@
                 }
             }
         ],
-        "ukrfe9": [
+        "hqrc1w": [
             {
-                "id": "us94d2",
+                "id": "mi3w3",
                 "name": "id",
                 "type": "biginteger",
                 "length": "",
@@ -2118,7 +2095,7 @@
                 }
             },
             {
-                "id": "iitaa",
+                "id": "n71hxi",
                 "name": "name",
                 "type": "string",
                 "length": "",
@@ -2141,9 +2118,9 @@
                 }
             }
         ],
-        "zc425": [
+        "ya99l9": [
             {
-                "id": "0fkjc7",
+                "id": "munp9o",
                 "name": "id",
                 "type": "biginteger",
                 "length": "",
@@ -2166,7 +2143,7 @@
                 }
             },
             {
-                "id": "lqs5v",
+                "id": "499d5i",
                 "name": "name",
                 "type": "string",
                 "length": "",
@@ -2189,9 +2166,9 @@
                 }
             }
         ],
-        "l6aws6": [
+        "8i8eos": [
             {
-                "id": "ayymas",
+                "id": "3s3t5i",
                 "name": "id",
                 "type": "biginteger",
                 "length": "",
@@ -2214,7 +2191,7 @@
                 }
             },
             {
-                "id": "50d3x7",
+                "id": "vnnadc",
                 "name": "name",
                 "type": "string",
                 "length": "",
@@ -2237,7 +2214,7 @@
                 }
             },
             {
-                "id": "bq1my",
+                "id": "iwsk4j",
                 "name": "percentage",
                 "type": "string",
                 "length": "",
@@ -2264,192 +2241,192 @@
     "relations": [
         {
             "source": {
-                "columnId": "ihkmfr",
-                "tableId": "6j9mxd"
+                "columnId": "5lt7m",
+                "tableId": "6xtg6a"
             },
             "target": {
-                "columnId": "vui2u5",
-                "tableId": "gxvle"
+                "columnId": "9qvkzj",
+                "tableId": "vlz4a7"
             }
         },
         {
             "source": {
-                "columnId": "f94cek",
-                "tableId": "6j9mxd"
+                "columnId": "nj7wf",
+                "tableId": "6xtg6a"
             },
             "target": {
-                "columnId": "375ww",
-                "tableId": "vy1vz"
+                "columnId": "gz7spg",
+                "tableId": "6hsogu"
             }
         },
         {
             "source": {
-                "columnId": "km7w2",
-                "tableId": "vy1vz"
+                "columnId": "gqayk",
+                "tableId": "6hsogu"
             },
             "target": {
-                "columnId": "vui2u5",
-                "tableId": "gxvle"
+                "columnId": "9qvkzj",
+                "tableId": "vlz4a7"
             }
         },
         {
             "source": {
-                "columnId": "x5cwca",
-                "tableId": "vy1vz"
+                "columnId": "9zfb0u",
+                "tableId": "6hsogu"
             },
             "target": {
-                "columnId": "tiu2ds",
-                "tableId": "vs9gwa"
+                "columnId": "u69d68",
+                "tableId": "l6rm6"
             }
         },
         {
             "source": {
-                "columnId": "h1kkdd",
-                "tableId": "gxvle"
+                "columnId": "5ltlo",
+                "tableId": "vlz4a7"
             },
             "target": {
-                "columnId": "thzrco",
-                "tableId": "xcd89"
+                "columnId": "5mjxf6",
+                "tableId": "5x986m"
             }
         },
         {
             "source": {
-                "columnId": "yphypu",
-                "tableId": "xcd89"
+                "columnId": "5mlsuk",
+                "tableId": "5x986m"
             },
             "target": {
-                "columnId": "z5ufi",
-                "tableId": "xdcmga"
+                "columnId": "k50o1p",
+                "tableId": "mmkz2o"
             }
         },
         {
             "source": {
-                "columnId": "tfk2r",
-                "tableId": "xcd89"
+                "columnId": "2rbyw",
+                "tableId": "5x986m"
             },
             "target": {
-                "columnId": "i52zq",
-                "tableId": "o2h1ew"
+                "columnId": "az2z6b",
+                "tableId": "w2knuh"
             }
         },
         {
             "source": {
-                "columnId": "58u8ip",
-                "tableId": "6j9mxd"
+                "columnId": "l14pht",
+                "tableId": "6xtg6a"
             },
             "target": {
-                "columnId": "sg2ynv",
-                "tableId": "mdmwkm"
+                "columnId": "3djpn",
+                "tableId": "iwuh2tr"
             }
         },
         {
             "source": {
-                "columnId": "ggd2f6",
-                "tableId": "9ccvth"
+                "columnId": "y3h5e8",
+                "tableId": "vxhqrb"
             },
             "target": {
-                "columnId": "sz5769",
-                "tableId": "6j9mxd"
+                "columnId": "95zmc",
+                "tableId": "6xtg6a"
             }
         },
         {
             "source": {
-                "columnId": "zz9acm",
-                "tableId": "m5unrn"
+                "columnId": "jfsmj",
+                "tableId": "2vorl"
             },
             "target": {
-                "columnId": "375ww",
-                "tableId": "vy1vz"
+                "columnId": "gz7spg",
+                "tableId": "6hsogu"
             }
         },
         {
             "source": {
-                "columnId": "23rbj6",
-                "tableId": "m5unrn"
+                "columnId": "svmqem",
+                "tableId": "2vorl"
             },
             "target": {
-                "columnId": "8k0ckr",
-                "tableId": "jrmhg"
+                "columnId": "4080lc",
+                "tableId": "4sjpl"
             }
         },
         {
             "source": {
-                "columnId": "7qf5yg",
-                "tableId": "m5unrn"
+                "columnId": "9dwhrj",
+                "tableId": "2vorl"
             },
             "target": {
-                "columnId": "sz5769",
-                "tableId": "6j9mxd"
+                "columnId": "95zmc",
+                "tableId": "6xtg6a"
             }
         },
         {
             "source": {
-                "columnId": "ef31bn",
-                "tableId": "m5unrn"
+                "columnId": "usk4q9",
+                "tableId": "2vorl"
             },
             "target": {
-                "columnId": "sz5769",
-                "tableId": "6j9mxd"
+                "columnId": "95zmc",
+                "tableId": "6xtg6a"
             }
         },
         {
             "source": {
-                "columnId": "qho4gl",
-                "tableId": "k6yft7"
+                "columnId": "m0jfb",
+                "tableId": "s9x2zf"
             },
             "target": {
-                "columnId": "8k0ckr",
-                "tableId": "jrmhg"
+                "columnId": "4080lc",
+                "tableId": "4sjpl"
             }
         },
         {
             "source": {
-                "columnId": "kt4bjm",
-                "tableId": "k6yft7"
+                "columnId": "x0p4zc",
+                "tableId": "s9x2zf"
             },
             "target": {
-                "columnId": "05uiod",
-                "tableId": "ezuyz"
+                "columnId": "z5tci",
+                "tableId": "l6075e"
             }
         },
         {
             "source": {
-                "columnId": "o8k18r",
-                "tableId": "k6yft7"
+                "columnId": "cg9se2",
+                "tableId": "s9x2zf"
             },
             "target": {
-                "columnId": "0fkjc7",
-                "tableId": "zc425"
+                "columnId": "munp9o",
+                "tableId": "ya99l9"
             }
         },
         {
             "source": {
-                "columnId": "eggkg5",
-                "tableId": "ezuyz"
+                "columnId": "s7mnqo",
+                "tableId": "l6075e"
             },
             "target": {
-                "columnId": "us94d2",
-                "tableId": "ukrfe9"
+                "columnId": "mi3w3",
+                "tableId": "hqrc1w"
             }
         },
         {
             "source": {
-                "columnId": "6xv7d5",
-                "tableId": "ezuyz"
+                "columnId": "xgnqk",
+                "tableId": "l6075e"
             },
             "target": {
-                "columnId": "0fkjc7",
-                "tableId": "zc425"
+                "columnId": "munp9o",
+                "tableId": "ya99l9"
             }
         },
         {
             "source": {
-                "columnId": "07vt5f",
-                "tableId": "ezuyz"
+                "columnId": "i338in",
+                "tableId": "l6075e"
             },
             "target": {
-                "columnId": "ayymas",
-                "tableId": "l6aws6"
+                "columnId": "3s3t5i",
+                "tableId": "8i8eos"
             }
         }
     ]

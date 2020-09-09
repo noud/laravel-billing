@@ -21,12 +21,11 @@ street_address
 [country] {bgcolor: "green"}
 *id {label: "string"}
 name
-+currency
-+date
++currency {label: "varchar, null"}
++date {label: "integer, null"}
 
 [currency]
-*id {label: "integer"}
-code {label: "varchar", length: "3"}
+*code {label: "varchar", length: "3"}
 symbol {label: "varchar", length: "1"}
 fraction {label: "varchar"}
 format
