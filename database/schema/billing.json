@@ -46,147 +46,180 @@
             "tableId": ""
         },
         "positions": {
-            "eli6mi": {
-                "x": 15,
-                "y": 386
+            "6j9mxd": {
+                "x": 42,
+                "y": 390
             },
-            "h4n2m": {
-                "x": 469,
-                "y": 682
+            "vy1vz": {
+                "x": 590,
+                "y": 517
             },
-            "19a57i": {
-                "x": 717,
-                "y": 467
+            "vs9gwa": {
+                "x": 818,
+                "y": 732
             },
-            "jpjv8": {
-                "x": 958,
-                "y": 499
+            "gxvle": {
+                "x": 819,
+                "y": 463
             },
-            "3vo3q": {
-                "x": 718,
-                "y": 748
+            "xcd89": {
+                "x": 1060,
+                "y": 496
             },
-            "s6ml7s": {
-                "x": 237,
-                "y": 848
+            "xdcmga": {
+                "x": 1278,
+                "y": 450
             },
-            "huumtb": {
-                "x": 945,
+            "o2h1ew": {
+                "x": 1279,
+                "y": 786
+            },
+            "mdmwkm": {
+                "x": 307,
+                "y": 744
+            },
+            "ezuyz": {
+                "x": 1068,
                 "y": 0
             },
-            "pmun5d": {
-                "x": 483,
+            "9ccvth": {
+                "x": 46,
+                "y": 109
+            },
+            "jrmhg": {
+                "x": 592,
                 "y": 0
             },
-            "hhsrml": {
-                "x": 251,
-                "y": 1
-            },
-            "c2fpj": {
-                "x": 699,
-                "y": 88
-            },
-            "7lmlgp": {
-                "x": 1163,
-                "y": 169
-            },
-            "3cm6mc": {
-                "x": 1163,
-                "y": 306
-            },
-            "ztoa4c": {
-                "x": 1164,
+            "m5unrn": {
+                "x": 364,
                 "y": 0
+            },
+            "k6yft7": {
+                "x": 820,
+                "y": 92
+            },
+            "ukrfe9": {
+                "x": 1302,
+                "y": 173
+            },
+            "zc425": {
+                "x": 1303,
+                "y": 311
+            },
+            "l6aws6": {
+                "x": 1301,
+                "y": 3
             }
         }
     },
     "tables": [
         {
-            "id": "eli6mi",
+            "id": "6j9mxd",
             "name": "organization",
             "color": "table-header-green",
             "softDelete": false,
             "timeStamp": true
         },
         {
-            "id": "h4n2m",
+            "id": "vy1vz",
             "name": "place",
             "color": "table-header-green",
             "softDelete": false,
             "timeStamp": true
         },
         {
-            "id": "19a57i",
-            "name": "postal_address",
-            "color": "table-header-green",
-            "softDelete": false,
-            "timeStamp": true
-        },
-        {
-            "id": "jpjv8",
-            "name": "country",
-            "color": "table-header-green",
-            "softDelete": false,
-            "timeStamp": true
-        },
-        {
-            "id": "3vo3q",
+            "id": "vs9gwa",
             "name": "geo_coordinate",
             "color": "table-header-green",
             "softDelete": false,
             "timeStamp": true
         },
         {
-            "id": "s6ml7s",
+            "id": "gxvle",
+            "name": "postal_address",
+            "color": "table-header-green",
+            "softDelete": false,
+            "timeStamp": true
+        },
+        {
+            "id": "xcd89",
+            "name": "country",
+            "color": "table-header-green",
+            "softDelete": false,
+            "timeStamp": true
+        },
+        {
+            "id": "xdcmga",
+            "name": "currency",
+            "color": "table-header-blue",
+            "softDelete": false,
+            "timeStamp": true
+        },
+        {
+            "id": "o2h1ew",
+            "name": "date",
+            "color": "table-header-blue",
+            "softDelete": false,
+            "timeStamp": true
+        },
+        {
+            "id": "mdmwkm",
             "name": "thing",
             "color": "table-header-green",
             "softDelete": false,
             "timeStamp": true
         },
         {
-            "id": "huumtb",
+            "id": "ezuyz",
             "name": "products",
             "color": "table-header-blue",
             "softDelete": false,
             "timeStamp": true
         },
         {
-            "id": "pmun5d",
+            "id": "9ccvth",
+            "name": "invoice_serial",
+            "color": "table-header-blue",
+            "softDelete": false,
+            "timeStamp": true
+        },
+        {
+            "id": "jrmhg",
             "name": "invoice",
             "color": "table-header-blue",
             "softDelete": false,
             "timeStamp": true
         },
         {
-            "id": "hhsrml",
+            "id": "m5unrn",
             "name": "invoice_detail",
             "color": "table-header-blue",
             "softDelete": false,
             "timeStamp": true
         },
         {
-            "id": "c2fpj",
+            "id": "k6yft7",
             "name": "invoice_item_detail",
             "color": "table-header-blue",
             "softDelete": false,
             "timeStamp": true
         },
         {
-            "id": "7lmlgp",
+            "id": "ukrfe9",
             "name": "category",
             "color": "table-header-blue",
             "softDelete": false,
             "timeStamp": true
         },
         {
-            "id": "3cm6mc",
+            "id": "zc425",
             "name": "unit",
             "color": "table-header-blue",
             "softDelete": false,
             "timeStamp": true
         },
         {
-            "id": "ztoa4c",
+            "id": "l6aws6",
             "name": "tax",
             "color": "table-header-blue",
             "softDelete": false,
@@ -194,9 +227,9 @@
         }
     ],
     "columns": {
-        "eli6mi": [
+        "6j9mxd": [
             {
-                "id": "7mnqyu",
+                "id": "sz5769",
                 "name": "id",
                 "type": "biginteger",
                 "length": "",
@@ -219,30 +252,30 @@
                 }
             },
             {
-                "id": "eui9ri",
+                "id": "ihkmfr",
                 "name": "address_id",
                 "type": "biginteger",
                 "length": "",
                 "defValue": "",
                 "comment": "",
                 "autoInc": false,
-                "nullable": false,
+                "nullable": true,
                 "unique": false,
                 "index": false,
                 "unsigned": true,
                 "foreignKey": {
                     "references": {
-                        "id": "tz8d",
+                        "id": "vui2u5",
                         "name": "id"
                     },
                     "on": {
-                        "id": "19a57i",
+                        "id": "gxvle",
                         "name": "postal_address"
                     }
                 }
             },
             {
-                "id": "04nwx9",
+                "id": "35q1s8",
                 "name": "email",
                 "type": "string",
                 "length": "",
@@ -265,7 +298,7 @@
                 }
             },
             {
-                "id": "eftyr",
+                "id": "jyvaat",
                 "name": "legal_name",
                 "type": "string",
                 "length": "",
@@ -288,30 +321,30 @@
                 }
             },
             {
-                "id": "xavj7l",
+                "id": "f94cek",
                 "name": "location_id",
                 "type": "biginteger",
                 "length": "",
                 "defValue": "",
                 "comment": "",
                 "autoInc": false,
-                "nullable": false,
+                "nullable": true,
                 "unique": false,
                 "index": false,
                 "unsigned": true,
                 "foreignKey": {
                     "references": {
-                        "id": "qxmq0m",
+                        "id": "375ww",
                         "name": "id"
                     },
                     "on": {
-                        "id": "h4n2m",
+                        "id": "vy1vz",
                         "name": "place"
                     }
                 }
             },
             {
-                "id": "x4bh4c",
+                "id": "6eifh7",
                 "name": "telephone",
                 "type": "string",
                 "length": "",
@@ -334,30 +367,30 @@
                 }
             },
             {
-                "id": "qyu9d",
+                "id": "58u8ip",
                 "name": "thing_id",
                 "type": "biginteger",
                 "length": "",
                 "defValue": "",
                 "comment": "",
                 "autoInc": false,
-                "nullable": false,
+                "nullable": true,
                 "unique": false,
                 "index": false,
                 "unsigned": true,
                 "foreignKey": {
                     "references": {
-                        "id": "ku4elp",
+                        "id": "sg2ynv",
                         "name": "id"
                     },
                     "on": {
-                        "id": "s6ml7s",
+                        "id": "mdmwkm",
                         "name": "thing"
                     }
                 }
             },
             {
-                "id": "hbpzl3",
+                "id": "cpmvae",
                 "name": "contact",
                 "type": "string",
                 "length": "",
@@ -380,7 +413,7 @@
                 }
             },
             {
-                "id": "wdwjlm",
+                "id": "fiuw5h",
                 "name": "mobile",
                 "type": "string",
                 "length": "",
@@ -403,7 +436,7 @@
                 }
             },
             {
-                "id": "ezkxz9",
+                "id": "2bw99p",
                 "name": "vat",
                 "type": "string",
                 "length": "",
@@ -426,7 +459,7 @@
                 }
             },
             {
-                "id": "ofcb44",
+                "id": "w4ecs6",
                 "name": "kvk",
                 "type": "string",
                 "length": "",
@@ -449,7 +482,7 @@
                 }
             },
             {
-                "id": "xyl53c",
+                "id": "epnj4k",
                 "name": "bank_number",
                 "type": "string",
                 "length": "",
@@ -472,7 +505,7 @@
                 }
             },
             {
-                "id": "117hlr",
+                "id": "zfrb7p",
                 "name": "bank_name",
                 "type": "string",
                 "length": "",
@@ -495,7 +528,7 @@
                 }
             },
             {
-                "id": "51g57v",
+                "id": "b2hyo7",
                 "name": "swift",
                 "type": "string",
                 "length": "",
@@ -518,7 +551,7 @@
                 }
             },
             {
-                "id": "thg2m8",
+                "id": "ikebkc",
                 "name": "pin",
                 "type": "string",
                 "length": "",
@@ -541,7 +574,7 @@
                 }
             },
             {
-                "id": "08w4jj",
+                "id": "48ntad",
                 "name": "tin",
                 "type": "string",
                 "length": "",
@@ -564,9 +597,9 @@
                 }
             }
         ],
-        "h4n2m": [
+        "vy1vz": [
             {
-                "id": "qxmq0m",
+                "id": "375ww",
                 "name": "id",
                 "type": "biginteger",
                 "length": "",
@@ -589,7 +622,7 @@
                 }
             },
             {
-                "id": "v8rtgd",
+                "id": "km7w2",
                 "name": "address_id",
                 "type": "biginteger",
                 "length": "",
@@ -602,17 +635,17 @@
                 "unsigned": true,
                 "foreignKey": {
                     "references": {
-                        "id": "tz8d",
+                        "id": "vui2u5",
                         "name": "id"
                     },
                     "on": {
-                        "id": "19a57i",
+                        "id": "gxvle",
                         "name": "postal_address"
                     }
                 }
             },
             {
-                "id": "qpj3w19",
+                "id": "x5cwca",
                 "name": "geo_id",
                 "type": "biginteger",
                 "length": "",
@@ -625,19 +658,19 @@
                 "unsigned": true,
                 "foreignKey": {
                     "references": {
-                        "id": "cnw2df",
+                        "id": "tiu2ds",
                         "name": "id"
                     },
                     "on": {
-                        "id": "3vo3q",
+                        "id": "vs9gwa",
                         "name": "geo_coordinate"
                     }
                 }
             }
         ],
-        "19a57i": [
+        "vs9gwa": [
             {
-                "id": "tz8d",
+                "id": "tiu2ds",
                 "name": "id",
                 "type": "biginteger",
                 "length": "",
@@ -660,195 +693,7 @@
                 }
             },
             {
-                "id": "k38kxl",
-                "name": "address_country",
-                "type": "string",
-                "length": "",
-                "defValue": "",
-                "comment": "",
-                "autoInc": false,
-                "nullable": false,
-                "unique": false,
-                "index": false,
-                "unsigned": false,
-                "foreignKey": {
-                    "references": {
-                        "id": "3jtjtr",
-                        "name": "id"
-                    },
-                    "on": {
-                        "id": "jpjv8",
-                        "name": "country"
-                    }
-                }
-            },
-            {
-                "id": "te9hsk",
-                "name": "address_locality",
-                "type": "string",
-                "length": "",
-                "defValue": "",
-                "comment": "",
-                "autoInc": false,
-                "nullable": false,
-                "unique": false,
-                "index": false,
-                "unsigned": false,
-                "foreignKey": {
-                    "references": {
-                        "id": "",
-                        "name": ""
-                    },
-                    "on": {
-                        "id": "",
-                        "name": ""
-                    }
-                }
-            },
-            {
-                "id": "m51qha",
-                "name": "address_region",
-                "type": "string",
-                "length": "",
-                "defValue": "",
-                "comment": "",
-                "autoInc": false,
-                "nullable": false,
-                "unique": false,
-                "index": false,
-                "unsigned": false,
-                "foreignKey": {
-                    "references": {
-                        "id": "",
-                        "name": ""
-                    },
-                    "on": {
-                        "id": "",
-                        "name": ""
-                    }
-                }
-            },
-            {
-                "id": "2gobd",
-                "name": "postal_code",
-                "type": "string",
-                "length": "",
-                "defValue": "",
-                "comment": "",
-                "autoInc": false,
-                "nullable": false,
-                "unique": false,
-                "index": false,
-                "unsigned": false,
-                "foreignKey": {
-                    "references": {
-                        "id": "",
-                        "name": ""
-                    },
-                    "on": {
-                        "id": "",
-                        "name": ""
-                    }
-                }
-            },
-            {
-                "id": "z8myob",
-                "name": "street_address",
-                "type": "string",
-                "length": "",
-                "defValue": "",
-                "comment": "",
-                "autoInc": false,
-                "nullable": false,
-                "unique": false,
-                "index": false,
-                "unsigned": false,
-                "foreignKey": {
-                    "references": {
-                        "id": "",
-                        "name": ""
-                    },
-                    "on": {
-                        "id": "",
-                        "name": ""
-                    }
-                }
-            }
-        ],
-        "jpjv8": [
-            {
-                "id": "3jtjtr",
-                "name": "id",
-                "type": "string",
-                "length": "",
-                "defValue": "",
-                "comment": "",
-                "autoInc": true,
-                "nullable": false,
-                "unique": true,
-                "index": false,
-                "unsigned": false,
-                "foreignKey": {
-                    "references": {
-                        "id": "",
-                        "name": ""
-                    },
-                    "on": {
-                        "id": "",
-                        "name": ""
-                    }
-                }
-            },
-            {
-                "id": "77ux3",
-                "name": "name",
-                "type": "string",
-                "length": "",
-                "defValue": "",
-                "comment": "",
-                "autoInc": false,
-                "nullable": false,
-                "unique": false,
-                "index": false,
-                "unsigned": false,
-                "foreignKey": {
-                    "references": {
-                        "id": "",
-                        "name": ""
-                    },
-                    "on": {
-                        "id": "",
-                        "name": ""
-                    }
-                }
-            }
-        ],
-        "3vo3q": [
-            {
-                "id": "cnw2df",
-                "name": "id",
-                "type": "biginteger",
-                "length": "",
-                "defValue": "",
-                "comment": "",
-                "autoInc": true,
-                "nullable": false,
-                "unique": true,
-                "index": false,
-                "unsigned": false,
-                "foreignKey": {
-                    "references": {
-                        "id": "",
-                        "name": ""
-                    },
-                    "on": {
-                        "id": "",
-                        "name": ""
-                    }
-                }
-            },
-            {
-                "id": "0gqkru",
+                "id": "hjt97j",
                 "name": "latitude",
                 "type": "string",
                 "length": "",
@@ -871,7 +716,7 @@
                 }
             },
             {
-                "id": "nopiz",
+                "id": "mkaaa",
                 "name": "longitude",
                 "type": "string",
                 "length": "",
@@ -894,9 +739,9 @@
                 }
             }
         ],
-        "s6ml7s": [
+        "gxvle": [
             {
-                "id": "ku4elp",
+                "id": "vui2u5",
                 "name": "id",
                 "type": "biginteger",
                 "length": "",
@@ -919,8 +764,100 @@
                 }
             },
             {
-                "id": "v85yiq",
-                "name": "url",
+                "id": "h1kkdd",
+                "name": "address_country",
+                "type": "string",
+                "length": "",
+                "defValue": "",
+                "comment": "",
+                "autoInc": false,
+                "nullable": false,
+                "unique": false,
+                "index": false,
+                "unsigned": false,
+                "foreignKey": {
+                    "references": {
+                        "id": "thzrco",
+                        "name": "id"
+                    },
+                    "on": {
+                        "id": "xcd89",
+                        "name": "country"
+                    }
+                }
+            },
+            {
+                "id": "z7dsmt",
+                "name": "address_locality",
+                "type": "string",
+                "length": "",
+                "defValue": "",
+                "comment": "",
+                "autoInc": false,
+                "nullable": false,
+                "unique": false,
+                "index": false,
+                "unsigned": false,
+                "foreignKey": {
+                    "references": {
+                        "id": "",
+                        "name": ""
+                    },
+                    "on": {
+                        "id": "",
+                        "name": ""
+                    }
+                }
+            },
+            {
+                "id": "mth5ss",
+                "name": "address_region",
+                "type": "string",
+                "length": "",
+                "defValue": "",
+                "comment": "",
+                "autoInc": false,
+                "nullable": false,
+                "unique": false,
+                "index": false,
+                "unsigned": false,
+                "foreignKey": {
+                    "references": {
+                        "id": "",
+                        "name": ""
+                    },
+                    "on": {
+                        "id": "",
+                        "name": ""
+                    }
+                }
+            },
+            {
+                "id": "xddjy",
+                "name": "postal_code",
+                "type": "string",
+                "length": "",
+                "defValue": "",
+                "comment": "",
+                "autoInc": false,
+                "nullable": false,
+                "unique": false,
+                "index": false,
+                "unsigned": false,
+                "foreignKey": {
+                    "references": {
+                        "id": "",
+                        "name": ""
+                    },
+                    "on": {
+                        "id": "",
+                        "name": ""
+                    }
+                }
+            },
+            {
+                "id": "a9axa",
+                "name": "street_address",
                 "type": "string",
                 "length": "",
                 "defValue": "",
@@ -942,11 +879,11 @@
                 }
             }
         ],
-        "huumtb": [
+        "xcd89": [
             {
-                "id": "292pjg",
+                "id": "thzrco",
                 "name": "id",
-                "type": "biginteger",
+                "type": "string",
                 "length": "",
                 "defValue": "",
                 "comment": "",
@@ -967,7 +904,7 @@
                 }
             },
             {
-                "id": "jy5bo",
+                "id": "kiokce",
                 "name": "name",
                 "type": "string",
                 "length": "",
@@ -990,8 +927,8 @@
                 }
             },
             {
-                "id": "dj953",
-                "name": "price",
+                "id": "yphypu",
+                "name": "currency",
                 "type": "string",
                 "length": "",
                 "defValue": "",
@@ -1003,228 +940,17 @@
                 "unsigned": false,
                 "foreignKey": {
                     "references": {
-                        "id": "",
-                        "name": ""
-                    },
-                    "on": {
-                        "id": "",
-                        "name": ""
-                    }
-                }
-            },
-            {
-                "id": "gpndhl",
-                "name": "tax",
-                "type": "biginteger",
-                "length": "",
-                "defValue": "",
-                "comment": "",
-                "autoInc": false,
-                "nullable": false,
-                "unique": false,
-                "index": false,
-                "unsigned": true,
-                "foreignKey": {
-                    "references": {
-                        "id": "xg3q9j",
+                        "id": "z5ufi",
                         "name": "id"
                     },
                     "on": {
-                        "id": "ztoa4c",
-                        "name": "tax"
+                        "id": "xdcmga",
+                        "name": "currency"
                     }
                 }
             },
             {
-                "id": "1mpwqc",
-                "name": "tax_amount",
-                "type": "string",
-                "length": "",
-                "defValue": "",
-                "comment": "",
-                "autoInc": false,
-                "nullable": false,
-                "unique": false,
-                "index": false,
-                "unsigned": false,
-                "foreignKey": {
-                    "references": {
-                        "id": "",
-                        "name": ""
-                    },
-                    "on": {
-                        "id": "",
-                        "name": ""
-                    }
-                }
-            },
-            {
-                "id": "egqbo8",
-                "name": "quantity",
-                "type": "string",
-                "length": "",
-                "defValue": "",
-                "comment": "",
-                "autoInc": false,
-                "nullable": false,
-                "unique": false,
-                "index": false,
-                "unsigned": false,
-                "foreignKey": {
-                    "references": {
-                        "id": "",
-                        "name": ""
-                    },
-                    "on": {
-                        "id": "",
-                        "name": ""
-                    }
-                }
-            },
-            {
-                "id": "fzk2wg",
-                "name": "category",
-                "type": "biginteger",
-                "length": "",
-                "defValue": "",
-                "comment": "",
-                "autoInc": false,
-                "nullable": false,
-                "unique": false,
-                "index": false,
-                "unsigned": true,
-                "foreignKey": {
-                    "references": {
-                        "id": "abxgvu",
-                        "name": "id"
-                    },
-                    "on": {
-                        "id": "7lmlgp",
-                        "name": "category"
-                    }
-                }
-            },
-            {
-                "id": "m5auq",
-                "name": "unit",
-                "type": "biginteger",
-                "length": "",
-                "defValue": "",
-                "comment": "",
-                "autoInc": false,
-                "nullable": false,
-                "unique": false,
-                "index": false,
-                "unsigned": true,
-                "foreignKey": {
-                    "references": {
-                        "id": "w2pppj",
-                        "name": "id"
-                    },
-                    "on": {
-                        "id": "3cm6mc",
-                        "name": "unit"
-                    }
-                }
-            }
-        ],
-        "pmun5d": [
-            {
-                "id": "rz2tw",
-                "name": "id",
-                "type": "uuid",
-                "length": "",
-                "defValue": "",
-                "comment": "",
-                "autoInc": true,
-                "nullable": false,
-                "unique": true,
-                "index": false,
-                "unsigned": false,
-                "foreignKey": {
-                    "references": {
-                        "id": "",
-                        "name": ""
-                    },
-                    "on": {
-                        "id": "",
-                        "name": ""
-                    }
-                }
-            }
-        ],
-        "hhsrml": [
-            {
-                "id": "v8cly",
-                "name": "id",
-                "type": "biginteger",
-                "length": "",
-                "defValue": "",
-                "comment": "",
-                "autoInc": true,
-                "nullable": false,
-                "unique": true,
-                "index": false,
-                "unsigned": false,
-                "foreignKey": {
-                    "references": {
-                        "id": "",
-                        "name": ""
-                    },
-                    "on": {
-                        "id": "",
-                        "name": ""
-                    }
-                }
-            },
-            {
-                "id": "tlj95b",
-                "name": "invoice_id",
-                "type": "uuid",
-                "length": "",
-                "defValue": "",
-                "comment": "",
-                "autoInc": false,
-                "nullable": false,
-                "unique": false,
-                "index": false,
-                "unsigned": false,
-                "foreignKey": {
-                    "references": {
-                        "id": "rz2tw",
-                        "name": "id"
-                    },
-                    "on": {
-                        "id": "pmun5d",
-                        "name": "invoice"
-                    }
-                }
-            },
-            {
-                "id": "71azsi",
-                "name": "area",
-                "type": "biginteger",
-                "length": "",
-                "defValue": "",
-                "comment": "",
-                "autoInc": false,
-                "nullable": false,
-                "unique": false,
-                "index": false,
-                "unsigned": true,
-                "foreignKey": {
-                    "references": {
-                        "id": "qxmq0m",
-                        "name": "id"
-                    },
-                    "on": {
-                        "id": "h4n2m",
-                        "name": "place"
-                    }
-                }
-            },
-            {
-                "id": "q7t8u",
+                "id": "tfk2r",
                 "name": "date",
                 "type": "string",
                 "length": "",
@@ -1237,86 +963,42 @@
                 "unsigned": false,
                 "foreignKey": {
                     "references": {
-                        "id": "",
-                        "name": ""
-                    },
-                    "on": {
-                        "id": "",
-                        "name": ""
-                    }
-                }
-            },
-            {
-                "id": "44frdx",
-                "name": "amount",
-                "type": "string",
-                "length": "",
-                "defValue": "",
-                "comment": "",
-                "autoInc": false,
-                "nullable": false,
-                "unique": false,
-                "index": false,
-                "unsigned": false,
-                "foreignKey": {
-                    "references": {
-                        "id": "",
-                        "name": ""
-                    },
-                    "on": {
-                        "id": "",
-                        "name": ""
-                    }
-                }
-            },
-            {
-                "id": "wdmv8n",
-                "name": "tax_amount",
-                "type": "string",
-                "length": "",
-                "defValue": "",
-                "comment": "",
-                "autoInc": false,
-                "nullable": false,
-                "unique": false,
-                "index": false,
-                "unsigned": false,
-                "foreignKey": {
-                    "references": {
-                        "id": "",
-                        "name": ""
-                    },
-                    "on": {
-                        "id": "",
-                        "name": ""
-                    }
-                }
-            },
-            {
-                "id": "zxgblj",
-                "name": "customer",
-                "type": "biginteger",
-                "length": "",
-                "defValue": "",
-                "comment": "",
-                "autoInc": false,
-                "nullable": false,
-                "unique": false,
-                "index": false,
-                "unsigned": true,
-                "foreignKey": {
-                    "references": {
-                        "id": "7mnqyu",
+                        "id": "i52zq",
                         "name": "id"
                     },
                     "on": {
-                        "id": "eli6mi",
-                        "name": "organization"
+                        "id": "o2h1ew",
+                        "name": "date"
+                    }
+                }
+            }
+        ],
+        "xdcmga": [
+            {
+                "id": "z5ufi",
+                "name": "id",
+                "type": "string",
+                "length": "",
+                "defValue": "",
+                "comment": "",
+                "autoInc": true,
+                "nullable": false,
+                "unique": true,
+                "index": false,
+                "unsigned": false,
+                "foreignKey": {
+                    "references": {
+                        "id": "",
+                        "name": ""
+                    },
+                    "on": {
+                        "id": "",
+                        "name": ""
                     }
                 }
             },
             {
-                "id": "t2ggq",
+                "id": "al6mqd",
                 "name": "code",
                 "type": "string",
                 "length": "",
@@ -1339,8 +1021,8 @@
                 }
             },
             {
-                "id": "bxtmjm",
-                "name": "order_nr",
+                "id": "bd7v6",
+                "name": "symbol",
                 "type": "string",
                 "length": "",
                 "defValue": "",
@@ -1362,31 +1044,8 @@
                 }
             },
             {
-                "id": "sf1at",
-                "name": "remark",
-                "type": "text",
-                "length": "",
-                "defValue": "",
-                "comment": "",
-                "autoInc": false,
-                "nullable": false,
-                "unique": false,
-                "index": false,
-                "unsigned": false,
-                "foreignKey": {
-                    "references": {
-                        "id": "",
-                        "name": ""
-                    },
-                    "on": {
-                        "id": "",
-                        "name": ""
-                    }
-                }
-            },
-            {
-                "id": "9bzzbr9",
-                "name": "pay_before",
+                "id": "9c5t",
+                "name": "fraction",
                 "type": "string",
                 "length": "",
                 "defValue": "",
@@ -1408,9 +1067,9 @@
                 }
             },
             {
-                "id": "n5jwfixe",
-                "name": "tenant",
-                "type": "biginteger",
+                "id": "ra3bio",
+                "name": "format",
+                "type": "string",
                 "length": "",
                 "defValue": "",
                 "comment": "",
@@ -1418,22 +1077,139 @@
                 "nullable": false,
                 "unique": false,
                 "index": false,
-                "unsigned": true,
+                "unsigned": false,
                 "foreignKey": {
                     "references": {
-                        "id": "7mnqyu",
-                        "name": "id"
+                        "id": "",
+                        "name": ""
                     },
                     "on": {
-                        "id": "eli6mi",
-                        "name": "organization"
+                        "id": "",
+                        "name": ""
+                    }
+                }
+            },
+            {
+                "id": "n96dl",
+                "name": "thousands_separator",
+                "type": "string",
+                "length": "",
+                "defValue": "",
+                "comment": "",
+                "autoInc": false,
+                "nullable": false,
+                "unique": false,
+                "index": false,
+                "unsigned": false,
+                "foreignKey": {
+                    "references": {
+                        "id": "",
+                        "name": ""
+                    },
+                    "on": {
+                        "id": "",
+                        "name": ""
+                    }
+                }
+            },
+            {
+                "id": "wejl1",
+                "name": "decimal_point",
+                "type": "string",
+                "length": "",
+                "defValue": "",
+                "comment": "",
+                "autoInc": false,
+                "nullable": false,
+                "unique": false,
+                "index": false,
+                "unsigned": false,
+                "foreignKey": {
+                    "references": {
+                        "id": "",
+                        "name": ""
+                    },
+                    "on": {
+                        "id": "",
+                        "name": ""
+                    }
+                }
+            },
+            {
+                "id": "hdazi",
+                "name": "decimals",
+                "type": "string",
+                "length": "",
+                "defValue": "",
+                "comment": "",
+                "autoInc": false,
+                "nullable": false,
+                "unique": false,
+                "index": false,
+                "unsigned": false,
+                "foreignKey": {
+                    "references": {
+                        "id": "",
+                        "name": ""
+                    },
+                    "on": {
+                        "id": "",
+                        "name": ""
                     }
                 }
             }
         ],
-        "c2fpj": [
+        "o2h1ew": [
             {
-                "id": "f1pi9",
+                "id": "i52zq",
+                "name": "id",
+                "type": "string",
+                "length": "",
+                "defValue": "",
+                "comment": "",
+                "autoInc": true,
+                "nullable": false,
+                "unique": true,
+                "index": false,
+                "unsigned": false,
+                "foreignKey": {
+                    "references": {
+                        "id": "",
+                        "name": ""
+                    },
+                    "on": {
+                        "id": "",
+                        "name": ""
+                    }
+                }
+            },
+            {
+                "id": "pip72u",
+                "name": "format",
+                "type": "string",
+                "length": "",
+                "defValue": "",
+                "comment": "",
+                "autoInc": false,
+                "nullable": false,
+                "unique": false,
+                "index": false,
+                "unsigned": false,
+                "foreignKey": {
+                    "references": {
+                        "id": "",
+                        "name": ""
+                    },
+                    "on": {
+                        "id": "",
+                        "name": ""
+                    }
+                }
+            }
+        ],
+        "mdmwkm": [
+            {
+                "id": "sg2ynv",
                 "name": "id",
                 "type": "biginteger",
                 "length": "",
@@ -1456,9 +1232,9 @@
                 }
             },
             {
-                "id": "ppj5vm",
-                "name": "invoice_id",
-                "type": "uuid",
+                "id": "sdx5qr",
+                "name": "url",
+                "type": "string",
                 "length": "",
                 "defValue": "",
                 "comment": "",
@@ -1469,41 +1245,43 @@
                 "unsigned": false,
                 "foreignKey": {
                     "references": {
-                        "id": "rz2tw",
-                        "name": "id"
+                        "id": "",
+                        "name": ""
                     },
                     "on": {
-                        "id": "pmun5d",
-                        "name": "invoice"
+                        "id": "",
+                        "name": ""
                     }
                 }
-            },
+            }
+        ],
+        "ezuyz": [
             {
-                "id": "horrja",
-                "name": "description",
+                "id": "05uiod",
+                "name": "id",
                 "type": "biginteger",
                 "length": "",
                 "defValue": "",
                 "comment": "",
-                "autoInc": false,
+                "autoInc": true,
                 "nullable": false,
-                "unique": false,
+                "unique": true,
                 "index": false,
-                "unsigned": true,
+                "unsigned": false,
                 "foreignKey": {
                     "references": {
-                        "id": "292pjg",
-                        "name": "id"
+                        "id": "",
+                        "name": ""
                     },
                     "on": {
-                        "id": "huumtb",
-                        "name": "products"
+                        "id": "",
+                        "name": ""
                     }
                 }
             },
             {
-                "id": "tea28p",
-                "name": "tax",
+                "id": "874t4n",
+                "name": "name",
                 "type": "string",
                 "length": "",
                 "defValue": "",
@@ -1525,76 +1303,7 @@
                 }
             },
             {
-                "id": "7trtyb",
-                "name": "tax_amount",
-                "type": "string",
-                "length": "",
-                "defValue": "",
-                "comment": "",
-                "autoInc": false,
-                "nullable": false,
-                "unique": false,
-                "index": false,
-                "unsigned": false,
-                "foreignKey": {
-                    "references": {
-                        "id": "",
-                        "name": ""
-                    },
-                    "on": {
-                        "id": "",
-                        "name": ""
-                    }
-                }
-            },
-            {
-                "id": "hqm8d",
-                "name": "qty",
-                "type": "string",
-                "length": "",
-                "defValue": "",
-                "comment": "",
-                "autoInc": false,
-                "nullable": false,
-                "unique": false,
-                "index": false,
-                "unsigned": false,
-                "foreignKey": {
-                    "references": {
-                        "id": "",
-                        "name": ""
-                    },
-                    "on": {
-                        "id": "",
-                        "name": ""
-                    }
-                }
-            },
-            {
-                "id": "bysgv",
-                "name": "unit",
-                "type": "biginteger",
-                "length": "",
-                "defValue": "",
-                "comment": "",
-                "autoInc": false,
-                "nullable": false,
-                "unique": false,
-                "index": false,
-                "unsigned": true,
-                "foreignKey": {
-                    "references": {
-                        "id": "w2pppj",
-                        "name": "id"
-                    },
-                    "on": {
-                        "id": "3cm6mc",
-                        "name": "unit"
-                    }
-                }
-            },
-            {
-                "id": "bvfmhn",
+                "id": "tuu58",
                 "name": "price",
                 "type": "string",
                 "length": "",
@@ -1617,7 +1326,751 @@
                 }
             },
             {
-                "id": "q58lrh",
+                "id": "07vt5f",
+                "name": "tax",
+                "type": "biginteger",
+                "length": "",
+                "defValue": "",
+                "comment": "",
+                "autoInc": false,
+                "nullable": false,
+                "unique": false,
+                "index": false,
+                "unsigned": true,
+                "foreignKey": {
+                    "references": {
+                        "id": "ayymas",
+                        "name": "id"
+                    },
+                    "on": {
+                        "id": "l6aws6",
+                        "name": "tax"
+                    }
+                }
+            },
+            {
+                "id": "par9lt",
+                "name": "tax_amount",
+                "type": "string",
+                "length": "",
+                "defValue": "",
+                "comment": "",
+                "autoInc": false,
+                "nullable": false,
+                "unique": false,
+                "index": false,
+                "unsigned": false,
+                "foreignKey": {
+                    "references": {
+                        "id": "",
+                        "name": ""
+                    },
+                    "on": {
+                        "id": "",
+                        "name": ""
+                    }
+                }
+            },
+            {
+                "id": "4jcbsu",
+                "name": "quantity",
+                "type": "string",
+                "length": "",
+                "defValue": "",
+                "comment": "",
+                "autoInc": false,
+                "nullable": false,
+                "unique": false,
+                "index": false,
+                "unsigned": false,
+                "foreignKey": {
+                    "references": {
+                        "id": "",
+                        "name": ""
+                    },
+                    "on": {
+                        "id": "",
+                        "name": ""
+                    }
+                }
+            },
+            {
+                "id": "eggkg5",
+                "name": "category",
+                "type": "biginteger",
+                "length": "",
+                "defValue": "",
+                "comment": "",
+                "autoInc": false,
+                "nullable": true,
+                "unique": false,
+                "index": false,
+                "unsigned": true,
+                "foreignKey": {
+                    "references": {
+                        "id": "us94d2",
+                        "name": "id"
+                    },
+                    "on": {
+                        "id": "ukrfe9",
+                        "name": "category"
+                    }
+                }
+            },
+            {
+                "id": "6xv7d5",
+                "name": "unit",
+                "type": "biginteger",
+                "length": "",
+                "defValue": "",
+                "comment": "",
+                "autoInc": false,
+                "nullable": false,
+                "unique": false,
+                "index": false,
+                "unsigned": true,
+                "foreignKey": {
+                    "references": {
+                        "id": "0fkjc7",
+                        "name": "id"
+                    },
+                    "on": {
+                        "id": "zc425",
+                        "name": "unit"
+                    }
+                }
+            }
+        ],
+        "9ccvth": [
+            {
+                "id": "q8ar0t",
+                "name": "id",
+                "type": "biginteger",
+                "length": "",
+                "defValue": "",
+                "comment": "",
+                "autoInc": true,
+                "nullable": false,
+                "unique": true,
+                "index": false,
+                "unsigned": false,
+                "foreignKey": {
+                    "references": {
+                        "id": "",
+                        "name": ""
+                    },
+                    "on": {
+                        "id": "",
+                        "name": ""
+                    }
+                }
+            },
+            {
+                "id": "ggd2f6",
+                "name": "tenant",
+                "type": "biginteger",
+                "length": "",
+                "defValue": "",
+                "comment": "",
+                "autoInc": false,
+                "nullable": false,
+                "unique": false,
+                "index": false,
+                "unsigned": true,
+                "foreignKey": {
+                    "references": {
+                        "id": "sz5769",
+                        "name": "id"
+                    },
+                    "on": {
+                        "id": "6j9mxd",
+                        "name": "organization"
+                    }
+                }
+            },
+            {
+                "id": "u2hq9r",
+                "name": "serial_number_series",
+                "type": "string",
+                "length": "",
+                "defValue": "",
+                "comment": "",
+                "autoInc": false,
+                "nullable": false,
+                "unique": false,
+                "index": false,
+                "unsigned": false,
+                "foreignKey": {
+                    "references": {
+                        "id": "",
+                        "name": ""
+                    },
+                    "on": {
+                        "id": "",
+                        "name": ""
+                    }
+                }
+            },
+            {
+                "id": "khzehd",
+                "name": "serial_number_sequence",
+                "type": "string",
+                "length": "",
+                "defValue": "",
+                "comment": "",
+                "autoInc": false,
+                "nullable": false,
+                "unique": false,
+                "index": false,
+                "unsigned": false,
+                "foreignKey": {
+                    "references": {
+                        "id": "",
+                        "name": ""
+                    },
+                    "on": {
+                        "id": "",
+                        "name": ""
+                    }
+                }
+            },
+            {
+                "id": "e7dw2c",
+                "name": "serial_number_format",
+                "type": "string",
+                "length": "",
+                "defValue": "",
+                "comment": "",
+                "autoInc": false,
+                "nullable": false,
+                "unique": false,
+                "index": false,
+                "unsigned": false,
+                "foreignKey": {
+                    "references": {
+                        "id": "",
+                        "name": ""
+                    },
+                    "on": {
+                        "id": "",
+                        "name": ""
+                    }
+                }
+            },
+            {
+                "id": "ck5l1m",
+                "name": "pay_until_days",
+                "type": "string",
+                "length": "",
+                "defValue": "",
+                "comment": "",
+                "autoInc": false,
+                "nullable": false,
+                "unique": false,
+                "index": false,
+                "unsigned": false,
+                "foreignKey": {
+                    "references": {
+                        "id": "",
+                        "name": ""
+                    },
+                    "on": {
+                        "id": "",
+                        "name": ""
+                    }
+                }
+            }
+        ],
+        "jrmhg": [
+            {
+                "id": "8k0ckr",
+                "name": "id",
+                "type": "uuid",
+                "length": "",
+                "defValue": "",
+                "comment": "",
+                "autoInc": true,
+                "nullable": false,
+                "unique": true,
+                "index": false,
+                "unsigned": false,
+                "foreignKey": {
+                    "references": {
+                        "id": "",
+                        "name": ""
+                    },
+                    "on": {
+                        "id": "",
+                        "name": ""
+                    }
+                }
+            }
+        ],
+        "m5unrn": [
+            {
+                "id": "1cxugl",
+                "name": "id",
+                "type": "biginteger",
+                "length": "",
+                "defValue": "",
+                "comment": "",
+                "autoInc": true,
+                "nullable": false,
+                "unique": true,
+                "index": false,
+                "unsigned": false,
+                "foreignKey": {
+                    "references": {
+                        "id": "",
+                        "name": ""
+                    },
+                    "on": {
+                        "id": "",
+                        "name": ""
+                    }
+                }
+            },
+            {
+                "id": "23rbj6",
+                "name": "invoice_id",
+                "type": "uuid",
+                "length": "",
+                "defValue": "",
+                "comment": "",
+                "autoInc": false,
+                "nullable": true,
+                "unique": false,
+                "index": false,
+                "unsigned": false,
+                "foreignKey": {
+                    "references": {
+                        "id": "8k0ckr",
+                        "name": "id"
+                    },
+                    "on": {
+                        "id": "jrmhg",
+                        "name": "invoice"
+                    }
+                }
+            },
+            {
+                "id": "zz9acm",
+                "name": "area",
+                "type": "biginteger",
+                "length": "",
+                "defValue": "",
+                "comment": "",
+                "autoInc": false,
+                "nullable": true,
+                "unique": false,
+                "index": false,
+                "unsigned": true,
+                "foreignKey": {
+                    "references": {
+                        "id": "375ww",
+                        "name": "id"
+                    },
+                    "on": {
+                        "id": "vy1vz",
+                        "name": "place"
+                    }
+                }
+            },
+            {
+                "id": "kxra7s",
+                "name": "date",
+                "type": "string",
+                "length": "",
+                "defValue": "",
+                "comment": "",
+                "autoInc": false,
+                "nullable": false,
+                "unique": false,
+                "index": false,
+                "unsigned": false,
+                "foreignKey": {
+                    "references": {
+                        "id": "",
+                        "name": ""
+                    },
+                    "on": {
+                        "id": "",
+                        "name": ""
+                    }
+                }
+            },
+            {
+                "id": "o3ns3",
+                "name": "amount",
+                "type": "string",
+                "length": "",
+                "defValue": "",
+                "comment": "",
+                "autoInc": false,
+                "nullable": false,
+                "unique": false,
+                "index": false,
+                "unsigned": false,
+                "foreignKey": {
+                    "references": {
+                        "id": "",
+                        "name": ""
+                    },
+                    "on": {
+                        "id": "",
+                        "name": ""
+                    }
+                }
+            },
+            {
+                "id": "nd1r6",
+                "name": "tax_amount",
+                "type": "string",
+                "length": "",
+                "defValue": "",
+                "comment": "",
+                "autoInc": false,
+                "nullable": false,
+                "unique": false,
+                "index": false,
+                "unsigned": false,
+                "foreignKey": {
+                    "references": {
+                        "id": "",
+                        "name": ""
+                    },
+                    "on": {
+                        "id": "",
+                        "name": ""
+                    }
+                }
+            },
+            {
+                "id": "7qf5yg",
+                "name": "customer",
+                "type": "biginteger",
+                "length": "",
+                "defValue": "",
+                "comment": "",
+                "autoInc": false,
+                "nullable": false,
+                "unique": false,
+                "index": false,
+                "unsigned": true,
+                "foreignKey": {
+                    "references": {
+                        "id": "sz5769",
+                        "name": "id"
+                    },
+                    "on": {
+                        "id": "6j9mxd",
+                        "name": "organization"
+                    }
+                }
+            },
+            {
+                "id": "d72tga",
+                "name": "code",
+                "type": "string",
+                "length": "",
+                "defValue": "",
+                "comment": "",
+                "autoInc": false,
+                "nullable": false,
+                "unique": false,
+                "index": false,
+                "unsigned": false,
+                "foreignKey": {
+                    "references": {
+                        "id": "",
+                        "name": ""
+                    },
+                    "on": {
+                        "id": "",
+                        "name": ""
+                    }
+                }
+            },
+            {
+                "id": "mfxsz",
+                "name": "order_nr",
+                "type": "string",
+                "length": "",
+                "defValue": "",
+                "comment": "",
+                "autoInc": false,
+                "nullable": false,
+                "unique": false,
+                "index": false,
+                "unsigned": false,
+                "foreignKey": {
+                    "references": {
+                        "id": "",
+                        "name": ""
+                    },
+                    "on": {
+                        "id": "",
+                        "name": ""
+                    }
+                }
+            },
+            {
+                "id": "78k4tk",
+                "name": "remark",
+                "type": "text",
+                "length": "",
+                "defValue": "",
+                "comment": "",
+                "autoInc": false,
+                "nullable": false,
+                "unique": false,
+                "index": false,
+                "unsigned": false,
+                "foreignKey": {
+                    "references": {
+                        "id": "",
+                        "name": ""
+                    },
+                    "on": {
+                        "id": "",
+                        "name": ""
+                    }
+                }
+            },
+            {
+                "id": "ka2t3v",
+                "name": "pay_before",
+                "type": "string",
+                "length": "",
+                "defValue": "",
+                "comment": "",
+                "autoInc": false,
+                "nullable": false,
+                "unique": false,
+                "index": false,
+                "unsigned": false,
+                "foreignKey": {
+                    "references": {
+                        "id": "",
+                        "name": ""
+                    },
+                    "on": {
+                        "id": "",
+                        "name": ""
+                    }
+                }
+            },
+            {
+                "id": "ef31bn",
+                "name": "tenant",
+                "type": "biginteger",
+                "length": "",
+                "defValue": "",
+                "comment": "",
+                "autoInc": false,
+                "nullable": false,
+                "unique": false,
+                "index": false,
+                "unsigned": true,
+                "foreignKey": {
+                    "references": {
+                        "id": "sz5769",
+                        "name": "id"
+                    },
+                    "on": {
+                        "id": "6j9mxd",
+                        "name": "organization"
+                    }
+                }
+            }
+        ],
+        "k6yft7": [
+            {
+                "id": "5lklj",
+                "name": "id",
+                "type": "biginteger",
+                "length": "",
+                "defValue": "",
+                "comment": "",
+                "autoInc": true,
+                "nullable": false,
+                "unique": true,
+                "index": false,
+                "unsigned": false,
+                "foreignKey": {
+                    "references": {
+                        "id": "",
+                        "name": ""
+                    },
+                    "on": {
+                        "id": "",
+                        "name": ""
+                    }
+                }
+            },
+            {
+                "id": "qho4gl",
+                "name": "invoice_id",
+                "type": "uuid",
+                "length": "",
+                "defValue": "",
+                "comment": "",
+                "autoInc": false,
+                "nullable": true,
+                "unique": false,
+                "index": false,
+                "unsigned": false,
+                "foreignKey": {
+                    "references": {
+                        "id": "8k0ckr",
+                        "name": "id"
+                    },
+                    "on": {
+                        "id": "jrmhg",
+                        "name": "invoice"
+                    }
+                }
+            },
+            {
+                "id": "kt4bjm",
+                "name": "description",
+                "type": "biginteger",
+                "length": "",
+                "defValue": "",
+                "comment": "",
+                "autoInc": false,
+                "nullable": false,
+                "unique": false,
+                "index": false,
+                "unsigned": true,
+                "foreignKey": {
+                    "references": {
+                        "id": "05uiod",
+                        "name": "id"
+                    },
+                    "on": {
+                        "id": "ezuyz",
+                        "name": "products"
+                    }
+                }
+            },
+            {
+                "id": "qva0l",
+                "name": "tax",
+                "type": "string",
+                "length": "",
+                "defValue": "",
+                "comment": "",
+                "autoInc": false,
+                "nullable": false,
+                "unique": false,
+                "index": false,
+                "unsigned": false,
+                "foreignKey": {
+                    "references": {
+                        "id": "",
+                        "name": ""
+                    },
+                    "on": {
+                        "id": "",
+                        "name": ""
+                    }
+                }
+            },
+            {
+                "id": "au2x33f",
+                "name": "tax_amount",
+                "type": "string",
+                "length": "",
+                "defValue": "",
+                "comment": "",
+                "autoInc": false,
+                "nullable": false,
+                "unique": false,
+                "index": false,
+                "unsigned": false,
+                "foreignKey": {
+                    "references": {
+                        "id": "",
+                        "name": ""
+                    },
+                    "on": {
+                        "id": "",
+                        "name": ""
+                    }
+                }
+            },
+            {
+                "id": "r5732",
+                "name": "qty",
+                "type": "string",
+                "length": "",
+                "defValue": "",
+                "comment": "",
+                "autoInc": false,
+                "nullable": false,
+                "unique": false,
+                "index": false,
+                "unsigned": false,
+                "foreignKey": {
+                    "references": {
+                        "id": "",
+                        "name": ""
+                    },
+                    "on": {
+                        "id": "",
+                        "name": ""
+                    }
+                }
+            },
+            {
+                "id": "o8k18r",
+                "name": "unit",
+                "type": "biginteger",
+                "length": "",
+                "defValue": "",
+                "comment": "",
+                "autoInc": false,
+                "nullable": false,
+                "unique": false,
+                "index": false,
+                "unsigned": true,
+                "foreignKey": {
+                    "references": {
+                        "id": "0fkjc7",
+                        "name": "id"
+                    },
+                    "on": {
+                        "id": "zc425",
+                        "name": "unit"
+                    }
+                }
+            },
+            {
+                "id": "iit5m7",
+                "name": "price",
+                "type": "string",
+                "length": "",
+                "defValue": "",
+                "comment": "",
+                "autoInc": false,
+                "nullable": false,
+                "unique": false,
+                "index": false,
+                "unsigned": false,
+                "foreignKey": {
+                    "references": {
+                        "id": "",
+                        "name": ""
+                    },
+                    "on": {
+                        "id": "",
+                        "name": ""
+                    }
+                }
+            },
+            {
+                "id": "aeul3t",
                 "name": "item_total",
                 "type": "string",
                 "length": "",
@@ -1640,9 +2093,9 @@
                 }
             }
         ],
-        "7lmlgp": [
+        "ukrfe9": [
             {
-                "id": "abxgvu",
+                "id": "us94d2",
                 "name": "id",
                 "type": "biginteger",
                 "length": "",
@@ -1665,7 +2118,7 @@
                 }
             },
             {
-                "id": "4ijqg",
+                "id": "iitaa",
                 "name": "name",
                 "type": "string",
                 "length": "",
@@ -1688,9 +2141,9 @@
                 }
             }
         ],
-        "3cm6mc": [
+        "zc425": [
             {
-                "id": "w2pppj",
+                "id": "0fkjc7",
                 "name": "id",
                 "type": "biginteger",
                 "length": "",
@@ -1713,7 +2166,7 @@
                 }
             },
             {
-                "id": "6wcgi",
+                "id": "lqs5v",
                 "name": "name",
                 "type": "string",
                 "length": "",
@@ -1736,9 +2189,9 @@
                 }
             }
         ],
-        "ztoa4c": [
+        "l6aws6": [
             {
-                "id": "xg3q9j",
+                "id": "ayymas",
                 "name": "id",
                 "type": "biginteger",
                 "length": "",
@@ -1761,7 +2214,7 @@
                 }
             },
             {
-                "id": "t8xsaj",
+                "id": "50d3x7",
                 "name": "name",
                 "type": "string",
                 "length": "",
@@ -1784,7 +2237,7 @@
                 }
             },
             {
-                "id": "zlsp88",
+                "id": "bq1my",
                 "name": "percentage",
                 "type": "string",
                 "length": "",
@@ -1811,162 +2264,192 @@
     "relations": [
         {
             "source": {
-                "columnId": "eui9ri",
-                "tableId": "eli6mi"
+                "columnId": "ihkmfr",
+                "tableId": "6j9mxd"
             },
             "target": {
-                "columnId": "tz8d",
-                "tableId": "19a57i"
+                "columnId": "vui2u5",
+                "tableId": "gxvle"
             }
         },
         {
             "source": {
-                "columnId": "xavj7l",
-                "tableId": "eli6mi"
+                "columnId": "f94cek",
+                "tableId": "6j9mxd"
             },
             "target": {
-                "columnId": "qxmq0m",
-                "tableId": "h4n2m"
+                "columnId": "375ww",
+                "tableId": "vy1vz"
             }
         },
         {
             "source": {
-                "columnId": "v8rtgd",
-                "tableId": "h4n2m"
+                "columnId": "km7w2",
+                "tableId": "vy1vz"
             },
             "target": {
-                "columnId": "tz8d",
-                "tableId": "19a57i"
+                "columnId": "vui2u5",
+                "tableId": "gxvle"
             }
         },
         {
             "source": {
-                "columnId": "qpj3w19",
-                "tableId": "h4n2m"
+                "columnId": "x5cwca",
+                "tableId": "vy1vz"
             },
             "target": {
-                "columnId": "cnw2df",
-                "tableId": "3vo3q"
+                "columnId": "tiu2ds",
+                "tableId": "vs9gwa"
             }
         },
         {
             "source": {
-                "columnId": "k38kxl",
-                "tableId": "19a57i"
+                "columnId": "h1kkdd",
+                "tableId": "gxvle"
             },
             "target": {
-                "columnId": "3jtjtr",
-                "tableId": "jpjv8"
+                "columnId": "thzrco",
+                "tableId": "xcd89"
             }
         },
         {
             "source": {
-                "columnId": "qyu9d",
-                "tableId": "eli6mi"
+                "columnId": "yphypu",
+                "tableId": "xcd89"
             },
             "target": {
-                "columnId": "ku4elp",
-                "tableId": "s6ml7s"
+                "columnId": "z5ufi",
+                "tableId": "xdcmga"
             }
         },
         {
             "source": {
-                "columnId": "71azsi",
-                "tableId": "hhsrml"
+                "columnId": "tfk2r",
+                "tableId": "xcd89"
             },
             "target": {
-                "columnId": "qxmq0m",
-                "tableId": "h4n2m"
+                "columnId": "i52zq",
+                "tableId": "o2h1ew"
             }
         },
         {
             "source": {
-                "columnId": "tlj95b",
-                "tableId": "hhsrml"
+                "columnId": "58u8ip",
+                "tableId": "6j9mxd"
             },
             "target": {
-                "columnId": "rz2tw",
-                "tableId": "pmun5d"
+                "columnId": "sg2ynv",
+                "tableId": "mdmwkm"
             }
         },
         {
             "source": {
-                "columnId": "zxgblj",
-                "tableId": "hhsrml"
+                "columnId": "ggd2f6",
+                "tableId": "9ccvth"
             },
             "target": {
-                "columnId": "7mnqyu",
-                "tableId": "eli6mi"
+                "columnId": "sz5769",
+                "tableId": "6j9mxd"
             }
         },
         {
             "source": {
-                "columnId": "n5jwfixe",
-                "tableId": "hhsrml"
+                "columnId": "zz9acm",
+                "tableId": "m5unrn"
             },
             "target": {
-                "columnId": "7mnqyu",
-                "tableId": "eli6mi"
+                "columnId": "375ww",
+                "tableId": "vy1vz"
             }
         },
         {
             "source": {
-                "columnId": "ppj5vm",
-                "tableId": "c2fpj"
+                "columnId": "23rbj6",
+                "tableId": "m5unrn"
             },
             "target": {
-                "columnId": "rz2tw",
-                "tableId": "pmun5d"
+                "columnId": "8k0ckr",
+                "tableId": "jrmhg"
             }
         },
         {
             "source": {
-                "columnId": "horrja",
-                "tableId": "c2fpj"
+                "columnId": "7qf5yg",
+                "tableId": "m5unrn"
             },
             "target": {
-                "columnId": "292pjg",
-                "tableId": "huumtb"
+                "columnId": "sz5769",
+                "tableId": "6j9mxd"
             }
         },
         {
             "source": {
-                "columnId": "bysgv",
-                "tableId": "c2fpj"
+                "columnId": "ef31bn",
+                "tableId": "m5unrn"
             },
             "target": {
-                "columnId": "w2pppj",
-                "tableId": "3cm6mc"
+                "columnId": "sz5769",
+                "tableId": "6j9mxd"
             }
         },
         {
             "source": {
-                "columnId": "fzk2wg",
-                "tableId": "huumtb"
+                "columnId": "qho4gl",
+                "tableId": "k6yft7"
             },
             "target": {
-                "columnId": "abxgvu",
-                "tableId": "7lmlgp"
+                "columnId": "8k0ckr",
+                "tableId": "jrmhg"
             }
         },
         {
             "source": {
-                "columnId": "m5auq",
-                "tableId": "huumtb"
+                "columnId": "kt4bjm",
+                "tableId": "k6yft7"
             },
             "target": {
-                "columnId": "w2pppj",
-                "tableId": "3cm6mc"
+                "columnId": "05uiod",
+                "tableId": "ezuyz"
             }
         },
         {
             "source": {
-                "columnId": "gpndhl",
-                "tableId": "huumtb"
+                "columnId": "o8k18r",
+                "tableId": "k6yft7"
             },
             "target": {
-                "columnId": "xg3q9j",
-                "tableId": "ztoa4c"
+                "columnId": "0fkjc7",
+                "tableId": "zc425"
+            }
+        },
+        {
+            "source": {
+                "columnId": "eggkg5",
+                "tableId": "ezuyz"
+            },
+            "target": {
+                "columnId": "us94d2",
+                "tableId": "ukrfe9"
+            }
+        },
+        {
+            "source": {
+                "columnId": "6xv7d5",
+                "tableId": "ezuyz"
+            },
+            "target": {
+                "columnId": "0fkjc7",
+                "tableId": "zc425"
+            }
+        },
+        {
+            "source": {
+                "columnId": "07vt5f",
+                "tableId": "ezuyz"
+            },
+            "target": {
+                "columnId": "ayymas",
+                "tableId": "l6aws6"
             }
         }
     ]

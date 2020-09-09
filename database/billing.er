@@ -12,6 +12,14 @@ quantity {label: "float", length: "8,2"}
 +category {label: "bigint, null"}
 +unit
 
+[invoice_serial]
+*id {label: "bigint"}
++tenant {label: "bigint"}
+serial_number_series
+serial_number_sequence {label: "integer"}
+serial_number_format
+pay_until_days {label: "integer"}
+
 [invoice]
 *id {label: "uuid"}
 
@@ -53,6 +61,7 @@ name
 name
 percentage {label: "float"}
 
+invoice_serial *--1 organization {label: "tenant"}
 invoice_detail *--1 place {label: "area"}
 invoice_detail *--1 invoice
 invoice_detail *--1 organization {label: "customer"}

@@ -5,6 +5,11 @@ title {label: "GIS"}
 +address_id
 +geo_id
 
+[geo_coordinate] {bgcolor: "green"}
+*id {label: "bigint"}
+latitude {label: "float"}
+longitude {label: "float"}
+
 [postal_address] {bgcolor: "green"}
 *id {label: "bigint"}
 +address_country
@@ -16,12 +21,25 @@ street_address
 [country] {bgcolor: "green"}
 *id {label: "string"}
 name
++currency
++date
 
-[geo_coordinate] {bgcolor: "green"}
-*id {label: "bigint"}
-latitude {label: "float"}
-longitude {label: "float"}
+[currency]
+*id {label: "integer"}
+code {label: "varchar", length: "3"}
+symbol {label: "varchar", length: "1"}
+fraction {label: "varchar"}
+format
+thousands_separator {label: "varchar", length: "1"}
+decimal_point {label: "varchar", length: "1"}
+decimals {label: "integer"}
+
+[date]
+*id {label: "integer"}
+format
 
 place *--1 postal_address {label: "address_id"}
 place *--1 geo_coordinate {label: "geo_id"}
 postal_address *--1 country {label: "address_country"}
+country *--1 currency
+country *--1 date
