@@ -26,7 +26,9 @@ SET time_zone = "+00:00";
 --
 
 INSERT INTO `country` (`id`, `name`, `currency`, `date`, `created_at`, `updated_at`) VALUES
-('nl', 'Netherlands', 'eur', 3, NULL, NULL);
+('demo', 'non existing demo country', 'eur', 3, NULL, NULL),
+('be', 'Belgium', 'EUR', 3, NULL, NULL),
+('nl', 'Netherlands', 'EUR', 3, NULL, NULL);
 
 --
 -- Dumping data for table `currency`
@@ -34,7 +36,8 @@ INSERT INTO `country` (`id`, `name`, `currency`, `date`, `created_at`, `updated_
 
 INSERT INTO `currency` (`code`, `symbol`, `fraction`, `format`, `thousands_separator`, `decimal_point`, `decimals`, `created_at`, `updated_at`) VALUES
 ('eur', '€', 'ct.', '{VALUE} {SYMBOL}', '.', ',', 2, NULL, NULL),
-('USD', '$', 'cent', '{SYMBOL}{VALUE}', ',', '.', 2, NULL, NULL);
+('USD', '$', 'cent', '{SYMBOL} {VALUE}', ',', '.', 2, NULL, NULL),
+('EUR', '€', 'ct.', '{SYMBOL} {VALUE}', '.', ',', 2, NULL, NULL);
 
 --
 -- Dumping data for table `date`

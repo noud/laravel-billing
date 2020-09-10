@@ -1,5 +1,8 @@
 # generated
 src/app/Models/*
 src/database/migrations/*
-
+!src/database/migrations/2020_09_09_140743_createanddrop_country_table.php
+!src/database/migrations/2020_09_09_140743_createchange_country_table.php
+!src/database/migrations/2020_09_09_140843_createanddrop_currency_table.php
+!src/database/migrations/2020_09_09_140843_createchange_currency_table.php
 vendor
