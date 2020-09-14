@@ -6,14 +6,24 @@ use App\Http\Controllers\Controller;
 use Billing\Models\Invoice;
 use Billing\Models\InvoiceDetail;
 use Billing\Models\Organization;
+use Billing\Services\InvoiceSerialService;
 use LaravelDaily\Invoices\Invoice as LaravelDailyInvoice;
 use LaravelDaily\Invoices\Classes\Party;
 use LaravelDaily\Invoices\Classes\InvoiceItem;
 
 class InvoicesController extends Controller
 {
+    private $invoiceSerialService;
+
+    function __construct(InvoiceSerialService $invoiceSerialService)
+    {
+        $this->invoiceSerialService = $invoiceSerialService;
+    }
+
     function invoice(string $uuid) {
         $invoice = Invoice::where(['id' => $uuid])->first();
+
+        $this->invoiceSerialService->up($invoice);
 
         $invoiceDetails = $invoice->invoice_details()->first();
         $customer = $invoiceDetails->customer()->first();
